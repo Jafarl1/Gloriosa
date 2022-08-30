@@ -12,5 +12,6 @@ Also <b>Favorites page</b> and <b>Cart page</b> are indicated on navbar by the c
 
 On <b> Products </b> section you can choose some type.
 By selecting a certain type, you will see all products of this type. You can see other photos of product on photo slider. By clicking on the product name (e.g. Bouquet 1210, Composition 1311) you can see more information about product. <b> Add to favorite </b> and <b> Add to cart </b> buttons add and remove product from the corresponding section(favorites or cart).
+
 There are some filters on the right side. Filtering of products is possible by price, color and size.
 On <b> Catalog </b> list you can change type of products.
