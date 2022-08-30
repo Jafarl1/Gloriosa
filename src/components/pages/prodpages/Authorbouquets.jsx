@@ -30,14 +30,6 @@ function Authorbouquets() {
 
   const [filtered, setFiltered] = useState(authorbouquets);
 
-  // const [author, setAuthor] = useState([])
-
-  // useEffect(() => {
-  //   fetch('http://localhost:7000/authorbouquets')
-  //     .then(res => res.json())
-  //     .then(data => setAuthor(data))
-  // }, [])
-
   const [favItems, setFavItems] = useState([]);
 
   useEffect(() => {
@@ -88,19 +80,19 @@ function Authorbouquets() {
       <div className="products-page">
         <div className="page-head">
           <h1>
-            Müəllif buketləri
+            Author bouquets
           </h1>
           <div className="page-links">
             <NavLink to="/">
-              Ana səhifə
+              Home page
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/products">
-              Məhsullar
+              Products
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/authorbouquets">
-              Müəllif buketləri
+              Author bouquets
             </NavLink>
           </div>
         </div>
@@ -139,7 +131,7 @@ function Authorbouquets() {
                       </button>
                       <button className='add-to-cart-btn' onClick={() => addToCart(a.id)}>
                         {
-                          tocart.some(x => x.id === a.id) ? <b>Səbətə əlavə edilib</b> : 'Səbətə əlavə et'
+                          tocart.some(x => x.id === a.id) ? <b> Added to cart </b> : 'Add to cart'
                         }
                       </button>
                     </div>

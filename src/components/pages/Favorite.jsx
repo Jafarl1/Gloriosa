@@ -19,7 +19,7 @@ export default function Favorite() {
 
   useEffect(() => {
     let items = JSON.parse(localStorage.getItem('favorites'))
-    if (items){
+    if (items) {
       setFavorites(items)
     }
   }, [])
@@ -34,7 +34,7 @@ export default function Favorite() {
   const [tocart, setTocart] = useState([]);
 
   useEffect(() => {
-    if (localStorage.getItem('cart')){
+    if (localStorage.getItem('cart')) {
       setTocart(JSON.parse(localStorage.getItem('cart')))
     }
   }, [])
@@ -42,8 +42,8 @@ export default function Favorite() {
   const addToCart = (id) => {
     let prod = favorites.find((a) => a.id === id);
     const newProd = [...tocart];
-    
-    if (newProd.some(e => e.id === prod.id)){
+
+    if (newProd.some(e => e.id === prod.id)) {
       return
     }
     else {
@@ -60,15 +60,15 @@ export default function Favorite() {
 
         <div className="page-head" data-aos='fade-down'>
           <h1>
-            Sevimlilər
+            Favorites
           </h1>
           <div className="page-links">
             <NavLink to="/">
-              Ana səhifə
+              Home page
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/favorite">
-              Sevimlilər
+              Favorites
             </NavLink>
           </div>
         </div>
@@ -80,33 +80,33 @@ export default function Favorite() {
                 <img src={empty} alt="Empty" />
                 <span> Empty </span>
               </div>
-            :
-            favorites.map((a, i) => (
-              <div className="favorite-item" key={i}>
-                <div className="image">
-                  <img src={a.image1 || a.image} alt={a.name} />
+              :
+              favorites.map((a, i) => (
+                <div className="favorite-item" key={i}>
+                  <div className="image">
+                    <img src={a.image1 || a.image} alt={a.name} />
+                  </div>
+                  <div className="item-info">
+                    <Link to={`/${a.type}`}>
+                      {a.type}
+                    </Link>
+                    <h2>
+                      {a.name}
+                    </h2>
+                    <p>
+                      {a.price} AZN
+                    </p>
+                  </div>
+                  <div className="fav-btns">
+                    <button className='del' onClick={() => removeItem(a.id)}>
+                      <i className="fa-solid fa-heart"></i>
+                    </button>
+                    <button className='add' onClick={() => addToCart(a.id)}>
+                      Add to cart
+                    </button>
+                  </div>
                 </div>
-                <div className="item-info">
-                  <Link to={`/${a.type}`}>
-                    {a.type}
-                  </Link>
-                  <h2>
-                    {a.name}
-                  </h2>
-                  <p>
-                    {a.price} AZN
-                  </p>
-                </div>
-                <div className="fav-btns">
-                  <button className='del' onClick={() => removeItem(a.id)}>
-                    <i className="fa-solid fa-heart"></i>
-                  </button>
-                  <button className='add' onClick={() => addToCart(a.id)}>
-                    Səbətə əlavə et
-                  </button>
-                </div>
-              </div>
-            ))
+              ))
           }
 
         </div>

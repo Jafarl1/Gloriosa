@@ -36,12 +36,12 @@ export default function Cart() {
   const decreaseItem = (e) => {
     let items = JSON.parse(localStorage.getItem('cart'))
     let item = items.find(a => a.id === e)
-    if (item.count > 1){
+    if (item.count > 1) {
       item.count--;
       localStorage.setItem('cart', JSON.stringify(items))
       setCart(items)
     }
-    else{
+    else {
       removeItem(e)
     }
   }
@@ -49,13 +49,13 @@ export default function Cart() {
   const increaseItem = (e) => {
     let items = JSON.parse(localStorage.getItem('cart'))
     let item = items.find(a => a.id === e)
-    if (item.count < 5){
-      item.count ++;
+    if (item.count < 5) {
+      item.count++;
       localStorage.setItem('cart', JSON.stringify(items))
       setCart(items)
     }
-    else{
-      alert('Daha çox sifariş üçün zəhmət olmasa bizimlə əlaqə saxlayın!')
+    else {
+      alert('For more orders, call us!')
     }
   }
 
@@ -68,15 +68,15 @@ export default function Cart() {
       <div className="cart-page">
         <div className="page-head" data-aos='fade-down'>
           <h1>
-            Səbət
+            Cart
           </h1>
           <div className="page-links">
             <NavLink to="/">
-              Ana səhifə
+              Home page
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/cart">
-              Səbət
+              Cart
             </NavLink>
           </div>
         </div>
@@ -90,39 +90,39 @@ export default function Cart() {
                 </div>
                 :
                 cart.map((a, i) => (
-                      <div className="cart-item" key={i}>
-                        <div className="cart-image">
-                          <img src={a.image1 || a.image} alt="" />
-                        </div>
-                        <div className="cart-item-info">
-                          <h2>
-                            {a.name}
-                          </h2>
-                          <Link to={`/${a.type}`}>
-                            {a.type}
-                          </Link>
-                          <span>
-                            {a.price} <img src={azn} alt="AZN" />
-                          </span>
-                        </div>
-                        <div className="items-count">
-                          <button className='count-button' onClick={() => decreaseItem(a.id)}>
-                            <img src={minus} alt="decrease" />
-                          </button>
-                          <p className='actual-count'> 
-                            {a.count} 
-                          </p>
-                          <button className='count-button'>
-                            <img src={plus} alt="increase" onClick={() => increaseItem(a.id)}/>
-                          </button>
-                        </div>
-                        <div className="item-price">
-                          {a.price*a.count} <img src={azn} alt="AZN" />
-                        </div>
-                        <button className="remove-item" onClick={() => removeItem(a.id)}>
-                          <img src={remove} alt="remove" />
-                        </button>
-                      </div>
+                  <div className="cart-item" key={i}>
+                    <div className="cart-image">
+                      <img src={a.image1 || a.image} alt="" />
+                    </div>
+                    <div className="cart-item-info">
+                      <h2>
+                        {a.name}
+                      </h2>
+                      <Link to={`/${a.type}`}>
+                        {a.type}
+                      </Link>
+                      <span>
+                        {a.price} <img src={azn} alt="AZN" />
+                      </span>
+                    </div>
+                    <div className="items-count">
+                      <button className='count-button' onClick={() => decreaseItem(a.id)}>
+                        <img src={minus} alt="decrease" />
+                      </button>
+                      <p className='actual-count'>
+                        {a.count}
+                      </p>
+                      <button className='count-button'>
+                        <img src={plus} alt="increase" onClick={() => increaseItem(a.id)} />
+                      </button>
+                    </div>
+                    <div className="item-price">
+                      {a.price * a.count} <img src={azn} alt="AZN" />
+                    </div>
+                    <button className="remove-item" onClick={() => removeItem(a.id)}>
+                      <img src={remove} alt="remove" />
+                    </button>
+                  </div>
                 ))
             }
           </div>
@@ -133,7 +133,7 @@ export default function Cart() {
       </div>
     </>
   )
-} 
+}
 
 
 

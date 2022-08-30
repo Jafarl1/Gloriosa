@@ -30,15 +30,6 @@ function Minibouquets() {
 
   const [filtered, setFiltered] = useState(minibouquets);
 
-
-  // const [minibouquets, setMinibouquets] = useState([])
-
-  // useEffect(() => {
-  //   fetch('http://localhost:7000/minibouquets')
-  //     .then(res => res.json())
-  //     .then(data => setMinibouquets(data));
-  // }, [])
-
   const [favItems, setFavItems] = useState([]);
 
   useEffect(() => {
@@ -89,19 +80,19 @@ function Minibouquets() {
       <div className="products-page">
         <div className="page-head">
           <h1>
-            Mini buketlər
+            Mini bouquets
           </h1>
           <div className="page-links">
             <NavLink to="/">
-              Ana səhifə
+              Home page
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/products">
-              Məhsullar
+              Products
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/minibouquets">
-              Mini buketlər
+              Mini bouquets
             </NavLink>
           </div>
         </div>
@@ -137,7 +128,7 @@ function Minibouquets() {
                       </button>
                       <button className='add-to-cart-btn' onClick={() => addToCart(a.id)}>
                         {
-                          tocart.some(x => x.id === a.id) ? <b>Səbətə əlavə edilib</b> : 'Səbətə əlavə et'
+                          tocart.some(x => x.id === a.id) ? <b> Added to cart </b> : 'Add to cart'
                         }
                       </button>
                     </div>

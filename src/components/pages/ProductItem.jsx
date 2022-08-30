@@ -67,27 +67,27 @@ export default function ProductItem() {
       <div className="selected-page">
         <div className="page-head">
           <h1>
-            Məhsul haqda ətraflı məlumat
+            More about product
           </h1>
           <div className="page-links">
             <NavLink to="/">
-              Ana səhifə
+              Home page
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/products">
-              Məhsullar
+              Products
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to={`/${item.type}`}>
               {
-                item.type === 'authorbouquets' ? 'Müəllif buketləri' :
-                  item.type === 'cardspage' ? 'Açıqçalar' :
-                    item.type === 'compositions' ? 'Kompozisiyalar' :
-                      item.type === 'mensbouquets' ? 'Kişi buketləri' :
-                        item.type === 'minibouquets' ? 'Mini buketlər' :
-                          item.type === 'monobouquets' ? 'Mono buketlər' :
-                            item.type === 'seasonbouquets' ? 'Fəsil kompozisiyaları' :
-                              item.type === 'weddingbouquets' ? 'Toy buketləri' :
+                item.type === 'authorbouquets' ? 'Author bouquets' :
+                  item.type === 'cardspage' ? 'Cards' :
+                    item.type === 'compositions' ? 'Compositions' :
+                      item.type === 'mensbouquets' ? "Mens' bouquets":
+                        item.type === 'minibouquets' ? 'Mini bouquets' :
+                          item.type === 'monobouquets' ? 'Mono bouquets' :
+                            item.type === 'seasonbouquets' ? 'Season bouquets' :
+                              item.type === 'weddingbouquets' ? 'Wedding bouquets' :
                                 'Wow buketlər'
               }
             </NavLink>
@@ -133,13 +133,13 @@ export default function ProductItem() {
               {item.name}
             </h1>
             <p>
-              Rəngi: <span>{item.color}</span>
+              Color: <span>{item.color}</span>
             </p>
             <p>
-              Ölçüsü: <span>{item.size}</span>
+              Size: <span>{item.size}</span>
             </p>
             <p>
-              Qiyməti: <span>{item.price} AZN</span>
+              Price: <span>{item.price} AZN</span>
             </p>
             <div className="selected-buttons">
               <button className="add-to-fav-btn" style={{ width: '80px' }} onClick={() => addToFav(item.id)}>
@@ -149,7 +149,7 @@ export default function ProductItem() {
               </button>
               <button className='add-to-cart-btn' style={{ width: '280px' }} onClick={() => addToCart(item.id)}>
                 {
-                  tocart.some(x => x.id === item.id) ? <b>Səbətə əlavə edilib</b> : 'Səbətə əlavə et'
+                  tocart.some(x => x.id === item.id) ? <b> Added to cart </b> : 'Add to cart'
                 }
               </button>
             </div>

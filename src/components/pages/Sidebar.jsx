@@ -104,7 +104,7 @@ function Catalog({setFiltered}) {
                 <div className="filter">
                     <div className="headline">
                         <h2>
-                            Filtr
+                            Filter
                         </h2>
                         <i
                             className={filter ? "fa-solid fa-angle-down openfilter rotate-i" : "fa-solid fa-angle-down openfilter"}
@@ -115,7 +115,7 @@ function Catalog({setFiltered}) {
                     <div className={filter ? "filter-items show-filter-list" : "filter-items"}>
                         <div className="price-filter">
                             <h5>
-                                Qiymət
+                                Price
                             </h5>
                             <div className="price-inputs">
                                 <MultiRangeSlider
@@ -127,28 +127,28 @@ function Catalog({setFiltered}) {
                         </div>
                         <div className="color-filter">
                             <h5>
-                                Rəng
+                                Color
                             </h5>
                             <div className="color-inputs">
                                 <label htmlFor="parlaq">
                                     <input type="checkbox" name="parlaq" id="parlaq" onChange={(e) => ByColor(e)} />
                                     <span className="mark"></span>
-                                    Parlaq
+                                    Bright
                                 </label>
                                 <label htmlFor="zəngin">
                                     <input type="checkbox" name="zəngin" id="zəngin" onChange={(e) => ByColor(e)} />
                                     <span className="mark"></span>
-                                    Zəngin
+                                    Contrast
                                 </label>
                                 <label htmlFor="zərif">
                                     <input type="checkbox" name="zərif" id="zərif" onChange={(e) => ByColor(e)} />
                                     <span className="mark"></span>
-                                    Zərif
+                                    Soft
                                 </label>
                                 <label htmlFor="açıq">
                                     <input type="checkbox" name="açıq" id="açıq" onChange={(e) => ByColor(e)} />
                                     <span className="mark"></span>
-                                    Açıq
+                                    Light
                                 </label>
                                 <label htmlFor="pastel">
                                     <input type="checkbox" name="pastel" id="pastel" onChange={(e) => ByColor(e)} />
@@ -159,23 +159,23 @@ function Catalog({setFiltered}) {
                         </div>
                         <div className="size-filter">
                             <h5>
-                                Ölçü
+                                Size
                             </h5>
                             <div className="size-inputs">
                                 <label htmlFor="kiçik">
                                     <input type="checkbox" name="kiçik" id="kiçik" onChange={(e) => BySize(e)} />
                                     <span className="mark"></span>
-                                    Kiçik
+                                    Small
                                 </label>
                                 <label htmlFor="orta">
                                     <input type="checkbox" name="orta" id="orta" onChange={(e) => BySize(e)} />
                                     <span className="mark"></span>
-                                    Orta
+                                    Medium
                                 </label>
                                 <label htmlFor="böyük">
                                     <input type="checkbox" name="böyük" id="böyük" onChange={(e) => BySize(e)} />
                                     <span className="mark"></span>
-                                    Böyük
+                                    Big
                                 </label>
                             </div>
                         </div>
@@ -185,7 +185,7 @@ function Catalog({setFiltered}) {
                     <div className="headline">
                         <NavLink to="/products">
                             <h2>
-                                Kataloq
+                                Catalog
                             </h2>
                         </NavLink>
 
@@ -200,55 +200,55 @@ function Catalog({setFiltered}) {
                         <NavLink to='/authorbouquets'
                             className={loc.includes('authorbouquets') ? "boldtext" : ""}
                         >
-                            Müəllif buketləri
+                            Author bouquets
                         </NavLink>
 
                         <NavLink to='/compositions'
                             className={loc.includes('compositions') ? "boldtext" : ""}
                         >
-                            Kompozisiyalar
+                            Compositions
                         </NavLink>
 
                         <NavLink to='/wowbouquets'
                             className={loc.includes('wowbouquets') ? "boldtext" : ""}
                         >
-                            Wow buketlər
+                            Wow bouquets
                         </NavLink>
 
                         <NavLink to='/minibouquets'
                             className={loc.includes('minibouquets') ? "boldtext" : ""}
                         >
-                            Mini buketlər
+                            Mini bouquets
                         </NavLink>
 
                         <NavLink to='/mensbouquets'
                             className={loc.includes('mensbouquets') ? "boldtext" : ""}
                         >
-                            Kişi buketləri
+                            Mens' bouquets
                         </NavLink>
 
                         <NavLink to='/monobouquets'
                             className={loc.includes('monobouquets') ? "boldtext" : ""}
                         >
-                            Mono buketlər
+                            Mono bouquets
                         </NavLink>
 
                         <NavLink to='/seasonbouquets'
                             className={loc.includes('seasonbouquets') ? "boldtext" : ""}
                         >
-                            Fəsil kompozisiyaları
+                            Season bouquets
                         </NavLink>
 
                         <NavLink to='/weddingbouquets'
                             className={loc.includes('weddingbouquets') ? "boldtext" : ""}
                         >
-                            Toy buketləri
+                            Wedding bouquets
                         </NavLink>
 
                         <NavLink to='/cardspage'
                             className={loc.includes('cardspage') ? "boldtext" : ""}
                         >
-                            Açıqçalar
+                            Cards
                         </NavLink>
                     </div>
                 </div>

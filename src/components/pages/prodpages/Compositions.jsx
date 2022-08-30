@@ -31,14 +31,6 @@ export default function Compositions() {
 
   const [filtered, setFiltered] = useState(compositions);
 
-  // const [compositions, setCompositions] = useState([])
-
-  // useEffect(() => {
-  //   fetch('http://localhost:7000/compositions')
-  //     .then(res => res.json())
-  //     .then(data => setCompositions(data))
-  // }, [])
-
   const [favItems, setFavItems] = useState([]);
 
   useEffect(() => {
@@ -89,19 +81,19 @@ export default function Compositions() {
       <div className="products-page">
         <div className="page-head">
           <h1>
-            Kompozisiyalar
+            Compositions
           </h1>
           <div className="page-links">
             <NavLink to="/">
-              Ana səhifə
+              Home page
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/products">
-              Məhsullar
+              Products
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/compositions">
-              Kompozisiyalar
+              Compositions
             </NavLink>
           </div>
         </div>
@@ -137,7 +129,7 @@ export default function Compositions() {
                       </button>
                       <button className='add-to-cart-btn' onClick={() => addToCart(a.id)}>
                         {
-                          tocart.some(x => x.id === a.id) ? <b>Səbətə əlavə edilib</b> : 'Səbətə əlavə et'
+                          tocart.some(x => x.id === a.id) ? <b> Added to cart </b> : 'Add to cart'
                         }
                       </button>
                     </div>

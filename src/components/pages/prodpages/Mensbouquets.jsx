@@ -30,15 +30,6 @@ function Mensbouquets() {
 
   const [filtered, setFiltered] = useState(mensbouquets);
 
-
-  // const [mensbouquets, setMensbouquets] = useState([])
-
-  // useEffect(() => {
-  //   fetch('http://localhost:7000/mensbouquets')
-  //     .then(res => res.json())
-  //     .then(data => setMensbouquets(data))
-  // }, [])
-
   const [favItems, setFavItems] = useState([]);
 
   useEffect(() => {
@@ -89,19 +80,19 @@ function Mensbouquets() {
       <div className="products-page">
         <div className="page-head">
           <h1>
-            Kişi buketləri
+            Mens' bouquets
           </h1>
           <div className="page-links">
             <NavLink to="/">
-              Ana səhifə
+              Home page
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/products">
-              Məhsullar
+              Products
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/mensbouquets">
-              Kişi buketləri
+              Mens' bouquets
             </NavLink>
           </div>
         </div>
@@ -137,7 +128,7 @@ function Mensbouquets() {
                       </button>
                       <button className='add-to-cart-btn' onClick={() => addToCart(a.id)}>
                         {
-                          tocart.some(x => x.id === a.id) ? <b>Səbətə əlavə edilib</b> : 'Səbətə əlavə et'
+                          tocart.some(x => x.id === a.id) ? <b> Added to cart </b> : 'Add to cart'
                         }
                       </button>
                     </div>

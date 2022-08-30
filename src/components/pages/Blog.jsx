@@ -12,15 +12,6 @@ export default function Blog() {
 
   const { blogs } = useSelector(x=>x)
 
-  // const [blogs, setBlogs] = useState([])
-
-  // useEffect(()=> {
-  //   fetch('http://localhost:7000/blogs')
-  //   .then(res => res.json())
-  //   .then(data => setBlogs(data))
-  // }, [])
-
-
   AOS.init({
     duration: 800,
     easing: 'ease'
@@ -32,15 +23,15 @@ export default function Blog() {
       <div className="blogpage">
         <div className="page-head" data-aos='fade-down'>
           <h1>
-            Bloq
+            Blog
           </h1>
           <div className="page-links">
             <NavLink to="/">
-              Ana səhifə
+              Home page
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/blog">
-              Bloq
+              Blog
             </NavLink>
           </div>
         </div>

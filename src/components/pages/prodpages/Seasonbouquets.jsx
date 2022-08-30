@@ -31,15 +31,6 @@ function Seasonbouquets() {
 
   const [filtered, setFiltered] = useState(seasonbouquets);
 
-
-  // const [seasonbouquets, setSeasonbouquets] = useState([])
-
-  // useEffect(() => {
-  //   fetch('http://localhost:7000/seasonbouquets')
-  //     .then(res => res.json())
-  //     .then(data => setSeasonbouquets(data))
-  // }, [])
-
   const [favItems, setFavItems] = useState([]);
 
   useEffect(() => {
@@ -90,19 +81,19 @@ function Seasonbouquets() {
       <div className="products-page">
         <div className="page-head">
           <h1>
-            Fəsil kompozisiyaları
+            Season bouquets
           </h1>
           <div className="page-links">
             <NavLink to="/">
-              Ana səhifə
+              Home page
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/products">
-              Məhsullar
+              Products
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/seasonbouquets">
-              Fəsil kompozisiyaları
+              Season bouquets
             </NavLink>
           </div>
         </div>
@@ -138,7 +129,7 @@ function Seasonbouquets() {
                       </button>
                       <button className='add-to-cart-btn' onClick={() => addToCart(a.id)}>
                         {
-                          tocart.some(x => x.id === a.id) ? <b>Səbətə əlavə edilib</b> : 'Səbətə əlavə et'
+                          tocart.some(x => x.id === a.id) ? <b> Added to cart </b> : 'Add to cart'
                         }
                       </button>
                     </div>
@@ -146,11 +137,11 @@ function Seasonbouquets() {
                 ))
                 :
                 <div className="emptyPage">
-                <img src={emptypage} alt="Empty" />
-                <span>
-                  Unfortunately, there are no products according to these parameters.
-                </span>
-              </div>
+                  <img src={emptypage} alt="Empty" />
+                  <span>
+                    Unfortunately, there are no products according to these parameters.
+                  </span>
+                </div>
             }
           </div>
           <Sidebar setFiltered={setFiltered} />

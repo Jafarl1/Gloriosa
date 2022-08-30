@@ -35,20 +35,6 @@ export default function Home() {
   const { bestsellers } = useSelector(state => state)
   const { mainslider } = useSelector(state => state)
 
-  // const [bestsellers, setBestsellers] = useState([])
-  // useEffect(() => {
-  //   fetch('http://localhost:7000/bestsellers')
-  //     .then(res => res.json())
-  //     .then(data => setBestsellers(data))
-  // }, [])
-
-  // const [mainslider, setMainslider] = useState([])
-  // useEffect(() => {
-  //   fetch('http://localhost:7000/mainslider')
-  //     .then(res => res.json())
-  //     .then(data => setMainslider(data))
-  // }, [])
-
   const [modal, setModal] = useState(false);
   const moreAbout = () => {
     setModal(!modal)
@@ -135,18 +121,7 @@ export default function Home() {
   const newComment = (a) => {
     a.preventDefault()
     const date = Moment().format('DD.MM.YYYY H:mm')
-    // fetch('http://localhost:7000/comments', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json'
-    //   },
-    //   body: JSON.stringify({
-    //     name: myName,
-    //     surname: mySurname,
-    //     comment: comment,
-    //     date: date,
-    //   })
-    // })
+
     setCustomerComments([...customerComments, {
       name: myName,
       surname: mySurname,
@@ -172,21 +147,10 @@ export default function Home() {
     setCommentsPage(!commentsPage)
   }
 
-  // const [customerComments, setCustomerComments] = useState([])
-
-  // useEffect(() => {
-  //   fetch('http://localhost:7000/comments')
-  //     .then(res => res.json())
-  //     .then(data => setCustomerComments(data))
-  // }, [
-  //   // customerComments
-  // ])
-
 
   return (
     <>
       <div className="wholehome">
-
         <div className="homepage">
           <div className="main">
             <div className="maintext" data-aos='zoom-out'>
@@ -289,8 +253,7 @@ export default function Home() {
           <div className="why">
             <div className="fresh" data-aos="zoom-in" data-aos-duration="500">
               <div className="background1"></div>
-              <
-                div className="into">
+              <div className="into">
                 <img src={bouquet} alt="fresh bouquet" />
               </div>
               <p className="intotext">
@@ -554,7 +517,7 @@ export default function Home() {
                         <img src="https://i.pravatar.cc/150?img=60" alt="" />
                       </div>
                       <div className="client">
-                        <span> 03 Aprel 2022 </span>
+                        <span> 03 April 2022 </span>
                         <p> Jack </p>
                       </div>
                       <div className="rates">
@@ -575,7 +538,7 @@ export default function Home() {
                         <img src="https://i.pravatar.cc/150?img=27" alt="" />
                       </div>
                       <div className="client">
-                        <span> 24 Dekabr 2021 </span>
+                        <span> 24 December 2021 </span>
                         <p> Sarah </p>
                       </div>
                       <div className="rates">
@@ -596,7 +559,7 @@ export default function Home() {
                         <img src="https://i.pravatar.cc/150?img=31" alt="" />
                       </div>
                       <div className="client">
-                        <span> 16 Avqust 2021 </span>
+                        <span> 16 August 2021 </span>
                         <p> Ann </p>
                       </div>
                       <div className="rates">

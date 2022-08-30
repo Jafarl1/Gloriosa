@@ -187,7 +187,7 @@ const initState = {
     authorbouquets: [
         {
             id: 101,
-            name: "Buket 1210",
+            name: "Bouquet 1210",
             count: 1,
             price: 150,
             type: "authorbouquets",
@@ -199,7 +199,7 @@ const initState = {
         },
         {
             id: 102,
-            name: "Buket 1211",
+            name: "Bouquet 1211",
             count: 1,
             price: 100,
             type: "authorbouquets",
@@ -211,7 +211,7 @@ const initState = {
         },
         {
             id: 103,
-            name: "Buket 1212",
+            name: "Bouquet 1212",
             count: 1,
             price: 250,
             type: "authorbouquets",
@@ -223,7 +223,7 @@ const initState = {
         },
         {
             id: 104,
-            name: "Buket 1213",
+            name: "Bouquet 1213",
             count: 1,
             price: 230,
             type: "authorbouquets",
@@ -235,7 +235,7 @@ const initState = {
         },
         {
             id: 105,
-            name: "Buket 1214",
+            name: "Bouquet 1214",
             count: 1,
             price: 200,
             type: "authorbouquets",
@@ -247,7 +247,7 @@ const initState = {
         },
         {
             id: 106,
-            name: "Buket 1215",
+            name: "Bouquet 1215",
             count: 1,
             price: 180,
             type: "authorbouquets",
@@ -259,7 +259,7 @@ const initState = {
         },
         {
             id: 107,
-            name: "Buket 1216",
+            name: "Bouquet 1216",
             count: 1,
             price: 130,
             type: "authorbouquets",
@@ -271,7 +271,7 @@ const initState = {
         },
         {
             id: 108,
-            name: "Buket 1217",
+            name: "Bouquet 1217",
             count: 1,
             price: 120,
             type: "authorbouquets",
@@ -283,7 +283,7 @@ const initState = {
         },
         {
             id: 109,
-            name: "Buket 1218",
+            name: "Bouquet 1218",
             count: 1,
             price: 145,
             type: "authorbouquets",
@@ -295,7 +295,7 @@ const initState = {
         },
         {
             id: 110,
-            name: "Buket 1219",
+            name: "Bouquet 1219",
             count: 1,
             price: 165,
             type: "authorbouquets",
@@ -307,7 +307,7 @@ const initState = {
         },
         {
             id: 111,
-            name: "Buket 1220",
+            name: "Bouquet 1220",
             count: 1,
             price: 180,
             type: "authorbouquets",
@@ -319,7 +319,7 @@ const initState = {
         },
         {
             id: 112,
-            name: "Buket 1221",
+            name: "Bouquet 1221",
             count: 1,
             price: 170,
             type: "authorbouquets",
@@ -331,7 +331,7 @@ const initState = {
         },
         {
             id: 113,
-            name: "Buket 1222",
+            name: "Bouquet 1222",
             count: 1,
             price: 130,
             type: "authorbouquets",
@@ -343,7 +343,7 @@ const initState = {
         },
         {
             id: 114,
-            name: "Buket 1223",
+            name: "Bouquet 1223",
             count: 1,
             price: 115,
             type: "authorbouquets",
@@ -355,7 +355,7 @@ const initState = {
         },
         {
             id: 115,
-            name: "Buket 1224",
+            name: "Bouquet 1224",
             count: 1,
             price: 100,
             type: "authorbouquets",
@@ -367,7 +367,7 @@ const initState = {
         },
         {
             id: 116,
-            name: "Buket 1225",
+            name: "Bouquet 1225",
             count: 1,
             price: 140,
             type: "authorbouquets",
@@ -379,7 +379,7 @@ const initState = {
         },
         {
             id: 117,
-            name: "Buket 1226",
+            name: "Bouquet 1226",
             count: 1,
             price: 210,
             type: "authorbouquets",
@@ -391,7 +391,7 @@ const initState = {
         },
         {
             id: 118,
-            name: "Buket 1227",
+            name: "Bouquet 1227",
             count: 1,
             price: 155,
             type: "authorbouquets",
@@ -403,7 +403,7 @@ const initState = {
         },
         {
             id: 119,
-            name: "Buket 1228",
+            name: "Bouquet 1228",
             count: 1,
             price: 190,
             type: "authorbouquets",
@@ -415,7 +415,7 @@ const initState = {
         },
         {
             id: 120,
-            name: "Buket 1229",
+            name: "Bouquet 1229",
             count: 1,
             price: 215,
             type: "authorbouquets",
@@ -427,7 +427,7 @@ const initState = {
         },
         {
             id: 121,
-            name: "Buket 1230",
+            name: "Bouquet 1230",
             count: 1,
             price: 170,
             type: "authorbouquets",
@@ -439,7 +439,7 @@ const initState = {
         },
         {
             id: 122,
-            name: "Buket 1231",
+            name: "Bouquet 1231",
             count: 1,
             price: 240,
             type: "authorbouquets",
@@ -453,7 +453,7 @@ const initState = {
     compositions: [
         {
             id: 201,
-            name: "Kompozisiya 1310",
+            name: "Composition 1310",
             count: 1,
             price: 150,
             type: "compositions",
@@ -464,7 +464,7 @@ const initState = {
         },
         {
             id: 202,
-            name: "Kompozisiya 1311",
+            name: "Composition 1311",
             count: 1,
             price: 80,
             type: "compositions",
@@ -475,7 +475,7 @@ const initState = {
         },
         {
             id: 203,
-            name: "Kompozisiya 1312",
+            name: "Composition 1312",
             count: 1,
             price: 50,
             type: "compositions",
@@ -486,7 +486,7 @@ const initState = {
         },
         {
             id: 204,
-            name: "Kompozisiya 1313",
+            name: "Composition 1313",
             count: 1,
             price: 80,
             type: "compositions",
@@ -497,7 +497,7 @@ const initState = {
         },
         {
             id: 205,
-            name: "Kompozisiya 1314",
+            name: "Composition 1314",
             count: 1,
             price: 130,
             type: "compositions",
@@ -508,7 +508,7 @@ const initState = {
         },
         {
             id: 206,
-            name: "Kompozisiya 1315",
+            name: "Composition 1315",
             count: 1,
             price: 100,
             type: "compositions",
@@ -519,7 +519,7 @@ const initState = {
         },
         {
             id: 207,
-            name: "Kompozisiya 1316",
+            name: "Composition 1316",
             count: 1,
             price: 80,
             type: "compositions",
@@ -530,7 +530,7 @@ const initState = {
         },
         {
             id: 208,
-            name: "Kompozisiya 1317",
+            name: "Composition 1317",
             count: 1,
             price: 90,
             type: "compositions",
@@ -541,7 +541,7 @@ const initState = {
         },
         {
             id: 209,
-            name: "Kompozisiya 1318",
+            name: "Composition 1318",
             count: 1,
             price: 95,
             type: "compositions",
@@ -552,7 +552,7 @@ const initState = {
         },
         {
             id: 210,
-            name: "Kompozisiya 1319",
+            name: "Composition 1319",
             count: 1,
             price: 50,
             type: "compositions",
@@ -563,7 +563,7 @@ const initState = {
         },
         {
             id: 211,
-            name: "Kompozisiya 1320",
+            name: "Composition 1320",
             count: 1,
             price: 80,
             type: "compositions",
@@ -574,7 +574,7 @@ const initState = {
         },
         {
             id: 212,
-            name: "Kompozisiya 1321",
+            name: "Composition 1321",
             count: 1,
             price: 50,
             type: "compositions",
@@ -585,7 +585,7 @@ const initState = {
         },
         {
             id: 213,
-            name: "Kompozisiya 1322",
+            name: "Composition 1322",
             count: 1,
             price: 50,
             type: "compositions",
@@ -596,7 +596,7 @@ const initState = {
         },
         {
             id: 214,
-            name: "Kompozisiya 1323",
+            name: "Composition 1323",
             count: 1,
             price: 75,
             type: "compositions",
@@ -607,7 +607,7 @@ const initState = {
         },
         {
             id: 215,
-            name: "Kompozisiya 1324",
+            name: "Composition 1324",
             count: 1,
             price: 80,
             type: "compositions",
@@ -620,7 +620,7 @@ const initState = {
     wowbouquets: [
         {
             id: 301,
-            name: "Buket 1410",
+            name: "Bouquet 1410",
             count: 1,
             price: 400,
             type: "wowbouquets",
@@ -631,7 +631,7 @@ const initState = {
         },
         {
             id: 302,
-            name: "Buket 1411",
+            name: "Bouquet 1411",
             count: 1,
             price: 350,
             type: "wowbouquets",
@@ -642,7 +642,7 @@ const initState = {
         },
         {
             id: 303,
-            name: "Buket 1412",
+            name: "Bouquet 1412",
             count: 1,
             price: 375,
             type: "wowbouquets",
@@ -653,7 +653,7 @@ const initState = {
         },
         {
             id: 304,
-            name: "Buket 1413",
+            name: "Bouquet 1413",
             count: 1,
             price: 330,
             type: "wowbouquets",
@@ -664,7 +664,7 @@ const initState = {
         },
         {
             id: 305,
-            name: "Buket 1414",
+            name: "Bouquet 1414",
             count: 1,
             price: 340,
             type: "wowbouquets",
@@ -675,7 +675,7 @@ const initState = {
         },
         {
             id: 306,
-            name: "Buket 1415",
+            name: "Bouquet 1415",
             count: 1,
             price: 385,
             type: "wowbouquets",
@@ -686,7 +686,7 @@ const initState = {
         },
         {
             id: 307,
-            name: "Buket 1416",
+            name: "Bouquet 1416",
             count: 1,
             price: 420,
             type: "wowbouquets",
@@ -697,7 +697,7 @@ const initState = {
         },
         {
             id: 308,
-            name: "Buket 1417",
+            name: "Bouquet 1417",
             count: 1,
             price: 370,
             type: "wowbouquets",
@@ -708,7 +708,7 @@ const initState = {
         },
         {
             id: 309,
-            name: "Buket 1418",
+            name: "Bouquet 1418",
             count: 1,
             price: 320,
             type: "wowbouquets",
@@ -719,7 +719,7 @@ const initState = {
         },
         {
             id: 310,
-            name: "Buket 1419",
+            name: "Bouquet 1419",
             count: 1,
             price: 380,
             type: "wowbouquets",
@@ -730,7 +730,7 @@ const initState = {
         },
         {
             id: 311,
-            name: "Buket 1420",
+            name: "Bouquet 1420",
             count: 1,
             price: 300,
             type: "wowbouquets",
@@ -741,7 +741,7 @@ const initState = {
         },
         {
             id: 312,
-            name: "Buket 1421",
+            name: "Bouquet 1421",
             count: 1,
             price: 360,
             type: "wowbouquets",
@@ -754,7 +754,7 @@ const initState = {
     minibouquets: [
         {
             id: 401,
-            name: "Buket 1510",
+            name: "Bouquet 1510",
             count: 1,
             price: 25,
             type: "minibouquets",
@@ -765,7 +765,7 @@ const initState = {
         },
         {
             id: 402,
-            name: "Buket 1511",
+            name: "Bouquet 1511",
             count: 1,
             price: 15,
             type: "minibouquets",
@@ -776,7 +776,7 @@ const initState = {
         },
         {
             id: 403,
-            name: "Buket 1512",
+            name: "Bouquet 1512",
             count: 1,
             price: 20,
             type: "minibouquets",
@@ -787,7 +787,7 @@ const initState = {
         },
         {
             id: 404,
-            name: "Buket 1513",
+            name: "Bouquet 1513",
             count: 1,
             price: 15,
             type: "minibouquets",
@@ -798,7 +798,7 @@ const initState = {
         },
         {
             id: 405,
-            name: "Buket 1514",
+            name: "Bouquet 1514",
             count: 1,
             price: 20,
             type: "minibouquets",
@@ -809,7 +809,7 @@ const initState = {
         },
         {
             id: 406,
-            name: "Buket 1515",
+            name: "Bouquet 1515",
             count: 1,
             price: 20,
             type: "minibouquets",
@@ -820,7 +820,7 @@ const initState = {
         },
         {
             id: 407,
-            name: "Buket 1516",
+            name: "Bouquet 1516",
             count: 1,
             price: 20,
             type: "minibouquets",
@@ -831,7 +831,7 @@ const initState = {
         },
         {
             id: 408,
-            name: "Buket 1517",
+            name: "Bouquet 1517",
             count: 1,
             price: 25,
             type: "minibouquets",
@@ -844,7 +844,7 @@ const initState = {
     mensbouquets: [
         {
             id: 501,
-            name: "Buket 1610",
+            name: "Bouquet 1610",
             count: 1,
             price: 100,
             type: "mensbouquets",
@@ -855,7 +855,7 @@ const initState = {
         },
         {
             id: 502,
-            name: "Buket 1611",
+            name: "Bouquet 1611",
             count: 1,
             price: 60,
             type: "mensbouquets",
@@ -866,7 +866,7 @@ const initState = {
         },
         {
             id: 503,
-            name: "Buket 1612",
+            name: "Bouquet 1612",
             count: 1,
             price: 80,
             type: "mensbouquets",
@@ -877,7 +877,7 @@ const initState = {
         },
         {
             id: 504,
-            name: "Buket 1613",
+            name: "Bouquet 1613",
             count: 1,
             price: 70,
             type: "mensbouquets",
@@ -890,7 +890,7 @@ const initState = {
     monobouquets: [
         {
             id: 601,
-            name: "Buket 1710",
+            name: "Bouquet 1710",
             count: 1,
             price: 260,
             type: "monobouquets",
@@ -901,7 +901,7 @@ const initState = {
         },
         {
             id: 602,
-            name: "Buket 1711",
+            name: "Bouquet 1711",
             count: 1,
             price: 140,
             type: "monobouquets",
@@ -912,7 +912,7 @@ const initState = {
         },
         {
             id: 603,
-            name: "Buket 1712",
+            name: "Bouquet 1712",
             count: 1,
             price: 155,
             type: "monobouquets",
@@ -923,7 +923,7 @@ const initState = {
         },
         {
             id: 604,
-            name: "Buket 1713",
+            name: "Bouquet 1713",
             count: 1,
             price: 80,
             type: "monobouquets",
@@ -934,7 +934,7 @@ const initState = {
         },
         {
             id: 605,
-            name: "Buket 1714",
+            name: "Bouquet 1714",
             count: 1,
             price: 80,
             type: "monobouquets",
@@ -945,7 +945,7 @@ const initState = {
         },
         {
             id: 606,
-            name: "Buket 1715",
+            name: "Bouquet 1715",
             count: 1,
             price: 120,
             type: "monobouquets",
@@ -956,7 +956,7 @@ const initState = {
         },
         {
             id: 607,
-            name: "Buket 1716",
+            name: "Bouquet 1716",
             count: 1,
             price: 90,
             type: "monobouquets",
@@ -967,7 +967,7 @@ const initState = {
         },
         {
             id: 608,
-            name: "Buket 1717",
+            name: "Bouquet 1717",
             count: 1,
             price: 80,
             type: "monobouquets",
@@ -978,7 +978,7 @@ const initState = {
         },
         {
             id: 609,
-            name: "Buket 1718",
+            name: "Bouquet 1718",
             count: 1,
             price: 80,
             type: "monobouquets",
@@ -991,7 +991,7 @@ const initState = {
     seasonbouquets: [
         {
             id: 701,
-            name: "Buket 1810",
+            name: "Bouquet 1810",
             count: 1,
             price: 80,
             type: "seasonbouquets",
@@ -1002,7 +1002,7 @@ const initState = {
         },
         {
             id: 702,
-            name: "Buket 1811",
+            name: "Bouquet 1811",
             count: 1,
             price: 100,
             type: "seasonbouquets",
@@ -1013,7 +1013,7 @@ const initState = {
         },
         {
             id: 703,
-            name: "Buket 1812",
+            name: "Bouquet 1812",
             count: 1,
             price: 50,
             type: "seasonbouquets",
@@ -1024,7 +1024,7 @@ const initState = {
         },
         {
             id: 704,
-            name: "Buket 1813",
+            name: "Bouquet 1813",
             count: 1,
             price: 40,
             type: "seasonbouquets",
@@ -1037,7 +1037,7 @@ const initState = {
     weddingbouquets: [
         {
             id: 801,
-            name: "Buket 1910",
+            name: "Bouquet 1910",
             count: 1,
             price: 80,
             type: "weddingbouquets",
@@ -1048,7 +1048,7 @@ const initState = {
         },
         {
             id: 802,
-            name: "Buket 1911",
+            name: "Bouquet 1911",
             count: 1,
             price: 100,
             type: "weddingbouquets",
@@ -1059,7 +1059,7 @@ const initState = {
         },
         {
             id: 803,
-            name: "Buket 1912",
+            name: "Bouquet 1912",
             count: 1,
             price: 90,
             type: "weddingbouquets",
@@ -1070,7 +1070,7 @@ const initState = {
         },
         {
             id: 804,
-            name: "Buket 1913",
+            name: "Bouquet 1913",
             count: 1,
             price: 70,
             type: "weddingbouquets",
@@ -1081,7 +1081,7 @@ const initState = {
         },
         {
             id: 805,
-            name: "Buket 1914",
+            name: "Bouquet 1914",
             count: 1,
             price: 60,
             type: "weddingbouquets",
@@ -1092,7 +1092,7 @@ const initState = {
         },
         {
             id: 806,
-            name: "Buket 1915",
+            name: "Bouquet 1915",
             count: 1,
             price: 110,
             type: "weddingbouquets",
@@ -1103,7 +1103,7 @@ const initState = {
         },
         {
             id: 807,
-            name: "Buket 1916",
+            name: "Bouquet 1916",
             count: 1,
             price: 65,
             type: "weddingbouquets",
@@ -1114,7 +1114,7 @@ const initState = {
         },
         {
             id: 808,
-            name: "Buket 1917",
+            name: "Bouquet 1917",
             count: 1,
             price: 50,
             type: "weddingbouquets",
@@ -1125,7 +1125,7 @@ const initState = {
         },
         {
             id: 809,
-            name: "Buket 1918",
+            name: "Bouquet 1918",
             count: 1,
             price: 85,
             type: "weddingbouquets",
@@ -1136,7 +1136,7 @@ const initState = {
         },
         {
             id: 810,
-            name: "Buket 1919",
+            name: "Bouquet 1919",
             count: 1,
             price: 95,
             type: "weddingbouquets",
@@ -1147,7 +1147,7 @@ const initState = {
         },
         {
             id: 811,
-            name: "Buket 1920",
+            name: "Bouquet 1920",
             count: 1,
             price: 60,
             type: "weddingbouquets",
@@ -1158,7 +1158,7 @@ const initState = {
         },
         {
             id: 812,
-            name: "Buket 1921",
+            name: "Bouquet 1921",
             count: 1,
             price: 80,
             type: "weddingbouquets",
@@ -1192,14 +1192,14 @@ const initState = {
         },
         {
             id: 33,
-            name: "Buketə qulluq",
+            name: "Bouquetə qulluq",
             count: 1,
             type: "Müştərilərə məsləhətlər",
             image: "../blog/small/bouquet-blog.jpg"
         },
         {
             id: 34,
-            name: "Kompozisiyaya qulluq",
+            name: "Compositionya qulluq",
             count: 1,
             type: "Müştərilərə məsləhətlər",
             image: "../blog/small/composition-blog.jpg"
@@ -1392,7 +1392,7 @@ const initState = {
         },
         {
             id: 101,
-            name: "Buket 1210",
+            name: "Bouquet 1210",
             count: 1,
             price: 150,
             type: "authorbouquets",
@@ -1404,7 +1404,7 @@ const initState = {
         },
         {
             id: 102,
-            name: "Buket 1211",
+            name: "Bouquet 1211",
             count: 1,
             price: 100,
             type: "authorbouquets",
@@ -1416,7 +1416,7 @@ const initState = {
         },
         {
             id: 103,
-            name: "Buket 1212",
+            name: "Bouquet 1212",
             count: 1,
             price: 250,
             type: "authorbouquets",
@@ -1428,7 +1428,7 @@ const initState = {
         },
         {
             id: 104,
-            name: "Buket 1213",
+            name: "Bouquet 1213",
             count: 1,
             price: 230,
             type: "authorbouquets",
@@ -1440,7 +1440,7 @@ const initState = {
         },
         {
             id: 105,
-            name: "Buket 1214",
+            name: "Bouquet 1214",
             count: 1,
             price: 200,
             type: "authorbouquets",
@@ -1452,7 +1452,7 @@ const initState = {
         },
         {
             id: 106,
-            name: "Buket 1215",
+            name: "Bouquet 1215",
             count: 1,
             price: 180,
             type: "authorbouquets",
@@ -1464,7 +1464,7 @@ const initState = {
         },
         {
             id: 107,
-            name: "Buket 1216",
+            name: "Bouquet 1216",
             count: 1,
             price: 130,
             type: "authorbouquets",
@@ -1476,7 +1476,7 @@ const initState = {
         },
         {
             id: 108,
-            name: "Buket 1217",
+            name: "Bouquet 1217",
             count: 1,
             price: 120,
             type: "authorbouquets",
@@ -1488,7 +1488,7 @@ const initState = {
         },
         {
             id: 109,
-            name: "Buket 1218",
+            name: "Bouquet 1218",
             count: 1,
             price: 145,
             type: "authorbouquets",
@@ -1500,7 +1500,7 @@ const initState = {
         },
         {
             id: 110,
-            name: "Buket 1219",
+            name: "Bouquet 1219",
             count: 1,
             price: 165,
             type: "authorbouquets",
@@ -1512,7 +1512,7 @@ const initState = {
         },
         {
             id: 111,
-            name: "Buket 1220",
+            name: "Bouquet 1220",
             count: 1,
             price: 180,
             type: "authorbouquets",
@@ -1524,7 +1524,7 @@ const initState = {
         },
         {
             id: 112,
-            name: "Buket 1221",
+            name: "Bouquet 1221",
             count: 1,
             price: 170,
             type: "authorbouquets",
@@ -1536,7 +1536,7 @@ const initState = {
         },
         {
             id: 113,
-            name: "Buket 1222",
+            name: "Bouquet 1222",
             count: 1,
             price: 130,
             type: "authorbouquets",
@@ -1548,7 +1548,7 @@ const initState = {
         },
         {
             id: 114,
-            name: "Buket 1223",
+            name: "Bouquet 1223",
             count: 1,
             price: 115,
             type: "authorbouquets",
@@ -1560,7 +1560,7 @@ const initState = {
         },
         {
             id: 115,
-            name: "Buket 1224",
+            name: "Bouquet 1224",
             count: 1,
             price: 100,
             type: "authorbouquets",
@@ -1572,7 +1572,7 @@ const initState = {
         },
         {
             id: 116,
-            name: "Buket 1225",
+            name: "Bouquet 1225",
             count: 1,
             price: 140,
             type: "authorbouquets",
@@ -1584,7 +1584,7 @@ const initState = {
         },
         {
             id: 117,
-            name: "Buket 1226",
+            name: "Bouquet 1226",
             count: 1,
             price: 210,
             type: "authorbouquets",
@@ -1596,7 +1596,7 @@ const initState = {
         },
         {
             id: 118,
-            name: "Buket 1227",
+            name: "Bouquet 1227",
             count: 1,
             price: 155,
             type: "authorbouquets",
@@ -1608,7 +1608,7 @@ const initState = {
         },
         {
             id: 119,
-            name: "Buket 1228",
+            name: "Bouquet 1228",
             count: 1,
             price: 190,
             type: "authorbouquets",
@@ -1620,7 +1620,7 @@ const initState = {
         },
         {
             id: 120,
-            name: "Buket 1229",
+            name: "Bouquet 1229",
             count: 1,
             price: 215,
             type: "authorbouquets",
@@ -1632,7 +1632,7 @@ const initState = {
         },
         {
             id: 121,
-            name: "Buket 1230",
+            name: "Bouquet 1230",
             count: 1,
             price: 170,
             type: "authorbouquets",
@@ -1644,7 +1644,7 @@ const initState = {
         },
         {
             id: 122,
-            name: "Buket 1231",
+            name: "Bouquet 1231",
             count: 1,
             price: 240,
             type: "authorbouquets",
@@ -1656,7 +1656,7 @@ const initState = {
         },
         {
             id: 201,
-            name: "Kompozisiya 1310",
+            name: "Composition 1310",
             count: 1,
             price: 150,
             type: "compositions",
@@ -1667,7 +1667,7 @@ const initState = {
         },
         {
             id: 202,
-            name: "Kompozisiya 1311",
+            name: "Composition 1311",
             count: 1,
             price: 80,
             type: "compositions",
@@ -1678,7 +1678,7 @@ const initState = {
         },
         {
             id: 203,
-            name: "Kompozisiya 1312",
+            name: "Composition 1312",
             count: 1,
             price: 50,
             type: "compositions",
@@ -1689,7 +1689,7 @@ const initState = {
         },
         {
             id: 204,
-            name: "Kompozisiya 1313",
+            name: "Composition 1313",
             count: 1,
             price: 80,
             type: "compositions",
@@ -1700,7 +1700,7 @@ const initState = {
         },
         {
             id: 205,
-            name: "Kompozisiya 1314",
+            name: "Composition 1314",
             count: 1,
             price: 130,
             type: "compositions",
@@ -1711,7 +1711,7 @@ const initState = {
         },
         {
             id: 206,
-            name: "Kompozisiya 1315",
+            name: "Composition 1315",
             count: 1,
             price: 100,
             type: "compositions",
@@ -1722,7 +1722,7 @@ const initState = {
         },
         {
             id: 207,
-            name: "Kompozisiya 1316",
+            name: "Composition 1316",
             count: 1,
             price: 80,
             type: "compositions",
@@ -1733,7 +1733,7 @@ const initState = {
         },
         {
             id: 208,
-            name: "Kompozisiya 1317",
+            name: "Composition 1317",
             count: 1,
             price: 90,
             type: "compositions",
@@ -1744,7 +1744,7 @@ const initState = {
         },
         {
             id: 209,
-            name: "Kompozisiya 1318",
+            name: "Composition 1318",
             count: 1,
             price: 95,
             type: "compositions",
@@ -1755,7 +1755,7 @@ const initState = {
         },
         {
             id: 210,
-            name: "Kompozisiya 1319",
+            name: "Composition 1319",
             count: 1,
             price: 50,
             type: "compositions",
@@ -1766,7 +1766,7 @@ const initState = {
         },
         {
             id: 211,
-            name: "Kompozisiya 1320",
+            name: "Composition 1320",
             count: 1,
             price: 80,
             type: "compositions",
@@ -1777,7 +1777,7 @@ const initState = {
         },
         {
             id: 212,
-            name: "Kompozisiya 1321",
+            name: "Composition 1321",
             count: 1,
             price: 50,
             type: "compositions",
@@ -1788,7 +1788,7 @@ const initState = {
         },
         {
             id: 213,
-            name: "Kompozisiya 1322",
+            name: "Composition 1322",
             count: 1,
             price: 50,
             type: "compositions",
@@ -1799,7 +1799,7 @@ const initState = {
         },
         {
             id: 214,
-            name: "Kompozisiya 1323",
+            name: "Composition 1323",
             count: 1,
             price: 75,
             type: "compositions",
@@ -1810,7 +1810,7 @@ const initState = {
         },
         {
             id: 215,
-            name: "Kompozisiya 1324",
+            name: "Composition 1324",
             count: 1,
             price: 80,
             type: "compositions",
@@ -1821,7 +1821,7 @@ const initState = {
         },
         {
             id: 301,
-            name: "Kompozisiya 1410",
+            name: "Composition 1410",
             count: 1,
             price: 400,
             type: "wowbouquets",
@@ -1832,7 +1832,7 @@ const initState = {
         },
         {
             id: 302,
-            name: "Kompozisiya 1411",
+            name: "Composition 1411",
             count: 1,
             price: 350,
             type: "wowbouquets",
@@ -1843,7 +1843,7 @@ const initState = {
         },
         {
             id: 303,
-            name: "Kompozisiya 1412",
+            name: "Composition 1412",
             count: 1,
             price: 375,
             type: "wowbouquets",
@@ -1854,7 +1854,7 @@ const initState = {
         },
         {
             id: 304,
-            name: "Kompozisiya 1413",
+            name: "Composition 1413",
             count: 1,
             price: 330,
             type: "wowbouquets",
@@ -1865,7 +1865,7 @@ const initState = {
         },
         {
             id: 305,
-            name: "Kompozisiya 1414",
+            name: "Composition 1414",
             count: 1,
             price: 340,
             type: "wowbouquets",
@@ -1876,7 +1876,7 @@ const initState = {
         },
         {
             id: 306,
-            name: "Kompozisiya 1415",
+            name: "Composition 1415",
             count: 1,
             price: 385,
             type: "wowbouquets",
@@ -1887,7 +1887,7 @@ const initState = {
         },
         {
             id: 307,
-            name: "Kompozisiya 1416",
+            name: "Composition 1416",
             count: 1,
             price: 420,
             type: "wowbouquets",
@@ -1898,7 +1898,7 @@ const initState = {
         },
         {
             id: 308,
-            name: "Kompozisiya 1417",
+            name: "Composition 1417",
             count: 1,
             price: 370,
             type: "wowbouquets",
@@ -1909,7 +1909,7 @@ const initState = {
         },
         {
             id: 309,
-            name: "Kompozisiya 1418",
+            name: "Composition 1418",
             count: 1,
             price: 320,
             type: "wowbouquets",
@@ -1920,7 +1920,7 @@ const initState = {
         },
         {
             id: 310,
-            name: "Kompozisiya 1419",
+            name: "Composition 1419",
             count: 1,
             price: 380,
             type: "wowbouquets",
@@ -1931,7 +1931,7 @@ const initState = {
         },
         {
             id: 311,
-            name: "Kompozisiya 1420",
+            name: "Composition 1420",
             count: 1,
             price: 300,
             type: "wowbouquets",
@@ -1942,7 +1942,7 @@ const initState = {
         },
         {
             id: 312,
-            name: "Kompozisiya 1421",
+            name: "Composition 1421",
             count: 1,
             price: 360,
             type: "wowbouquets",
@@ -1953,7 +1953,7 @@ const initState = {
         },
         {
             id: 401,
-            name: "Kompozisiya 1510",
+            name: "Composition 1510",
             count: 1,
             price: 25,
             type: "minibouquets",
@@ -1964,7 +1964,7 @@ const initState = {
         },
         {
             id: 402,
-            name: "Kompozisiya 1511",
+            name: "Composition 1511",
             count: 1,
             price: 15,
             type: "minibouquets",
@@ -1975,7 +1975,7 @@ const initState = {
         },
         {
             id: 403,
-            name: "Kompozisiya 1512",
+            name: "Composition 1512",
             count: 1,
             price: 20,
             type: "minibouquets",
@@ -1986,7 +1986,7 @@ const initState = {
         },
         {
             id: 404,
-            name: "Kompozisiya 1513",
+            name: "Composition 1513",
             count: 1,
             price: 15,
             type: "minibouquets",
@@ -1997,7 +1997,7 @@ const initState = {
         },
         {
             id: 405,
-            name: "Kompozisiya 1514",
+            name: "Composition 1514",
             count: 1,
             price: 20,
             type: "minibouquets",
@@ -2008,7 +2008,7 @@ const initState = {
         },
         {
             id: 406,
-            name: "Kompozisiya 1515",
+            name: "Composition 1515",
             count: 1,
             price: 20,
             type: "minibouquets",
@@ -2019,7 +2019,7 @@ const initState = {
         },
         {
             id: 407,
-            name: "Kompozisiya 1516",
+            name: "Composition 1516",
             count: 1,
             price: 20,
             type: "minibouquets",
@@ -2030,7 +2030,7 @@ const initState = {
         },
         {
             id: 408,
-            name: "Kompozisiya 1517",
+            name: "Composition 1517",
             count: 1,
             price: 25,
             type: "minibouquets",
@@ -2041,7 +2041,7 @@ const initState = {
         },
         {
             id: 501,
-            name: "Kompozisiya 1610",
+            name: "Composition 1610",
             count: 1,
             price: 100,
             type: "mensbouquets",
@@ -2052,7 +2052,7 @@ const initState = {
         },
         {
             id: 502,
-            name: "Kompozisiya 1611",
+            name: "Composition 1611",
             count: 1,
             price: 60,
             type: "mensbouquets",
@@ -2063,7 +2063,7 @@ const initState = {
         },
         {
             id: 503,
-            name: "Kompozisiya 1612",
+            name: "Composition 1612",
             count: 1,
             price: 80,
             type: "mensbouquets",
@@ -2074,7 +2074,7 @@ const initState = {
         },
         {
             id: 504,
-            name: "Kompozisiya 1613",
+            name: "Composition 1613",
             count: 1,
             price: 70,
             type: "mensbouquets",
@@ -2085,7 +2085,7 @@ const initState = {
         },
         {
             id: 601,
-            name: "Buket 1710",
+            name: "Bouquet 1710",
             count: 1,
             price: 260,
             type: "monobouquets",
@@ -2096,7 +2096,7 @@ const initState = {
         },
         {
             id: 602,
-            name: "Buket 1711",
+            name: "Bouquet 1711",
             count: 1,
             price: 140,
             type: "monobouquets",
@@ -2107,7 +2107,7 @@ const initState = {
         },
         {
             id: 603,
-            name: "Buket 1712",
+            name: "Bouquet 1712",
             count: 1,
             price: 155,
             type: "monobouquets",
@@ -2118,7 +2118,7 @@ const initState = {
         },
         {
             id: 604,
-            name: "Buket 1713",
+            name: "Bouquet 1713",
             count: 1,
             price: 80,
             type: "monobouquets",
@@ -2129,7 +2129,7 @@ const initState = {
         },
         {
             id: 605,
-            name: "Buket 1714",
+            name: "Bouquet 1714",
             count: 1,
             price: 80,
             type: "monobouquets",
@@ -2140,7 +2140,7 @@ const initState = {
         },
         {
             id: 606,
-            name: "Buket 1715",
+            name: "Bouquet 1715",
             count: 1,
             price: 120,
             type: "monobouquets",
@@ -2151,7 +2151,7 @@ const initState = {
         },
         {
             id: 607,
-            name: "Buket 1716",
+            name: "Bouquet 1716",
             count: 1,
             price: 90,
             type: "monobouquets",
@@ -2162,7 +2162,7 @@ const initState = {
         },
         {
             id: 608,
-            name: "Buket 1717",
+            name: "Bouquet 1717",
             count: 1,
             price: 80,
             type: "monobouquets",
@@ -2173,7 +2173,7 @@ const initState = {
         },
         {
             id: 609,
-            name: "Buket 1718",
+            name: "Bouquet 1718",
             count: 1,
             price: 80,
             type: "monobouquets",
@@ -2184,7 +2184,7 @@ const initState = {
         },
         {
             id: 701,
-            name: "Kompozisiya 1810",
+            name: "Composition 1810",
             count: 1,
             price: 80,
             type: "seasonbouquets",
@@ -2195,7 +2195,7 @@ const initState = {
         },
         {
             id: 702,
-            name: "Kompozisiya 1811",
+            name: "Composition 1811",
             count: 1,
             price: 100,
             type: "seasonbouquets",
@@ -2206,7 +2206,7 @@ const initState = {
         },
         {
             id: 703,
-            name: "Kompozisiya 1812",
+            name: "Composition 1812",
             count: 1,
             price: 50,
             type: "seasonbouquets",
@@ -2217,7 +2217,7 @@ const initState = {
         },
         {
             id: 704,
-            name: "Kompozisiya 1813",
+            name: "Composition 1813",
             count: 1,
             price: 40,
             type: "seasonbouquets",
@@ -2228,7 +2228,7 @@ const initState = {
         },
         {
             id: 801,
-            name: "Buket 1910",
+            name: "Bouquet 1910",
             count: 1,
             price: 80,
             type: "weddingbouquets",
@@ -2239,7 +2239,7 @@ const initState = {
         },
         {
             id: 802,
-            name: "Buket 1911",
+            name: "Bouquet 1911",
             count: 1,
             price: 100,
             type: "weddingbouquets",
@@ -2250,7 +2250,7 @@ const initState = {
         },
         {
             id: 803,
-            name: "Buket 1912",
+            name: "Bouquet 1912",
             count: 1,
             price: 90,
             type: "weddingbouquets",
@@ -2261,7 +2261,7 @@ const initState = {
         },
         {
             id: 804,
-            name: "Buket 1913",
+            name: "Bouquet 1913",
             count: 1,
             price: 70,
             type: "weddingbouquets",
@@ -2272,7 +2272,7 @@ const initState = {
         },
         {
             id: 805,
-            name: "Buket 1914",
+            name: "Bouquet 1914",
             count: 1,
             price: 60,
             type: "weddingbouquets",
@@ -2283,7 +2283,7 @@ const initState = {
         },
         {
             id: 806,
-            name: "Buket 1915",
+            name: "Bouquet 1915",
             count: 1,
             price: 110,
             type: "weddingbouquets",
@@ -2294,7 +2294,7 @@ const initState = {
         },
         {
             id: 807,
-            name: "Buket 1916",
+            name: "Bouquet 1916",
             count: 1,
             price: 65,
             type: "weddingbouquets",
@@ -2305,7 +2305,7 @@ const initState = {
         },
         {
             id: 808,
-            name: "Buket 1917",
+            name: "Bouquet 1917",
             count: 1,
             price: 50,
             type: "weddingbouquets",
@@ -2316,7 +2316,7 @@ const initState = {
         },
         {
             id: 809,
-            name: "Buket 1918",
+            name: "Bouquet 1918",
             count: 1,
             price: 85,
             type: "weddingbouquets",
@@ -2327,7 +2327,7 @@ const initState = {
         },
         {
             id: 810,
-            name: "Buket 1919",
+            name: "Bouquet 1919",
             count: 1,
             price: 95,
             type: "weddingbouquets",
@@ -2338,7 +2338,7 @@ const initState = {
         },
         {
             id: 811,
-            name: "Buket 1920",
+            name: "Bouquet 1920",
             count: 1,
             price: 60,
             type: "weddingbouquets",
@@ -2349,7 +2349,7 @@ const initState = {
         },
         {
             id: 812,
-            name: "Buket 1921",
+            name: "Bouquet 1921",
             count: 1,
             price: 80,
             type: "weddingbouquets",
@@ -2381,14 +2381,14 @@ const initState = {
         },
         {
             id: 33,
-            name: "Buketə qulluq",
+            name: "Bouquetə qulluq",
             count: 1,
             type: "Müştərilərə məsləhətlər",
             image: "../blog/small/bouquet-blog.jpg"
         },
         {
             id: 34,
-            name: "Kompozisiyaya qulluq",
+            name: "Compositionya qulluq",
             count: 1,
             type: "Müştərilərə məsləhətlər",
             image: "../blog/small/composition-blog.jpg"

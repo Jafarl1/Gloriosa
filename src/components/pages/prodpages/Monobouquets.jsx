@@ -31,15 +31,6 @@ function Monobouquets() {
 
   const [filtered, setFiltered] = useState(monobouquets);
 
-
-  // const [monobouquets, setMonobouquets] = useState([])
-
-  // useEffect(() => {
-  //   fetch('http://localhost:7000/monobouquets')
-  //     .then(res => res.json())
-  //     .then(data => setMonobouquets(data))
-  // }, [])
-
   const [favItems, setFavItems] = useState([]);
 
   useEffect(() => {
@@ -90,19 +81,19 @@ function Monobouquets() {
       <div className="products-page">
         <div className="page-head">
           <h1>
-            Mono buketlər
+            Mono bouquets
           </h1>
           <div className="page-links">
             <NavLink to="/">
-              Ana səhifə
+              Home page
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/products">
-              Məhsullar
+              Products
             </NavLink>
             <i className="fa-solid fa-angle-right"></i>
             <NavLink to="/monobouquets">
-              Mono buketlər
+              Mono bouquets
             </NavLink>
           </div>
         </div>
@@ -138,7 +129,7 @@ function Monobouquets() {
                       </button>
                       <button className='add-to-cart-btn' onClick={() => addToCart(a.id)}>
                         {
-                          tocart.some(x => x.id === a.id) ? <b>Səbətə əlavə edilib</b> : 'Səbətə əlavə et'
+                          tocart.some(x => x.id === a.id) ? <b> Added to cart </b> : 'Add to cart'
                         }
                       </button>
                     </div>
