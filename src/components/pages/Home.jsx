@@ -130,10 +130,10 @@ export default function Home() {
     }])
 
     swal({
-      title: "Şərhiniz üçün təşəkkür edirik!",
-      text: "Sizin fikriniz bizim üçün önəmlidir.",
+      title: "Thank you for your comment!",
+      text: "Your opinion is very important to us",
       icon: "success",
-      button: "Bağla",
+      button: "Close",
     });
     a.target.reset();
     setMyName('')
