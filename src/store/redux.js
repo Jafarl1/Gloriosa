@@ -69,25 +69,25 @@ const initState = {
             id: 8,
             name: "Main 1",
             count: 1,
-            image: "mainslider/main1.jpg"
+            image: "https://portofloral.ru/upload/iblock/739/73974d3ed6e7c67f144078cb2935db70.jpg"
         },
         {
             id: 9,
             name: "Main 2",
             count: 1,
-            image: "mainslider/main2.jpg"
+            image: "https://portofloral.ru/upload/iblock/2db/2db94d12cd8ca5c3939efe13fc5c14f6.jpg"
         },
         {
             id: 10,
             name: "Main 3",
             count: 1,
-            image: "mainslider/main3.jpg"
+            image: "https://portofloral.ru/upload/iblock/4a4/4a4bb48072165333c6bbe5f8a96509bf.jpg"
         },
         {
             id: 11,
             name: "Main 4",
             count: 1,
-            image: "mainslider/main4.jpg"
+            image: "https://portofloral.ru/upload/iblock/078/0783c3596bf24d34489c557c5d8f6d89.jpg"
         }
     ],
     sweets: [
