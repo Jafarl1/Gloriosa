@@ -78,7 +78,7 @@ export default function Favorite() {
             favorites.length === 0 ?
               <div className="empty">
                 <img src={empty} alt="Empty" />
-                <span> Heç nə tapılmadı </span>
+                <span> Empty </span>
               </div>
             :
             favorites.map((a, i) => (

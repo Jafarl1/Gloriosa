@@ -86,7 +86,7 @@ export default function Cart() {
               cart.length === 0 ?
                 <div className="cart-empty">
                   <img src={emptyCart} alt="Empty" />
-                  <span> Səbət boşdur </span>
+                  <span> Empty </span>
                 </div>
                 :
                 cart.map((a, i) => (
