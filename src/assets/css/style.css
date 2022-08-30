@@ -1784,7 +1784,7 @@ input[type="checkbox"]:checked + label .bounce .ball {
 .gallery h1 {
   font-family: "Prompt-Thin";
   height: 130px;
-  font-size: 65px;
+  font-size: 50px;
   color: var(--light-red);
   cursor: default;
   text-align: center;
