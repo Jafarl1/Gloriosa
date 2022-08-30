@@ -27,12 +27,12 @@ export default function Login() {
     const [passwordFull, setPasswordFull] = useState(false)
     const [passwordAgainFull, setPasswordAgainFull] = useState(false)
 
-    const [loginError, setLoginError] = useState('Bu xana boş qalmamalıdır.')
-    const [nameError, setNameError] = useState('Bu xana boş qalmamalıdır.')
+    const [loginError, setLoginError] = useState('This cell should not be left empty.')
+    const [nameError, setNameError] = useState('This cell should not be left empty.')
     const [emailError, setEmailError] = useState('')
-    const [phoneError, setPhoneError] = useState('Bu xana boş qalmamalıdır.')
-    const [passwordError, setPasswordError] = useState('Bu xana boş qalmamalıdır.')
-    const [passwordAgainError, setPasswordAgainError] = useState('Bu xana boş qalmamalıdır.')
+    const [phoneError, setPhoneError] = useState('This cell should not be left empty.')
+    const [passwordError, setPasswordError] = useState('This cell should not be left empty.')
+    const [passwordAgainError, setPasswordAgainError] = useState('This cell should not be left empty.')
 
     // const [userCheck, setUserCheck] = useState(false)
     const [userCheckError, setUserCheckError] = useState('')
@@ -77,7 +77,7 @@ export default function Login() {
     const handleLogin = (a) => {
         setLogin(a.target.value)
         if (a.target.value.length < 3) {
-            setLoginError('Login 3 simvoldan qısa olmamalıdır.')
+            setLoginError('Login must not be shorter than 3 characters.')
         }
         else {
             setLoginError()
@@ -87,7 +87,7 @@ export default function Login() {
     const handleName = (a) => {
         setName(a.target.value)
         if (a.target.value.length < 3) {
-            setNameError('Ad ən azı 3 simvoldan ibarət olmalıdır.')
+            setNameError('Name must not be shorter than 3 characters.')
         }
         else {
             setNameError("")
@@ -98,7 +98,7 @@ export default function Login() {
         setEmail(a.target.value)
         const checkEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         if (!checkEmail.test(String(a.target.value).toLowerCase())) {
-            setEmailError('E-mail səhv formatda qeyd olunub.')
+            setEmailError('E-mail was entered in the wrong format.')
         }
         else {
             setEmailError('')
@@ -108,7 +108,7 @@ export default function Login() {
     const handlePhone = (a) => {
         setPhone(a.target.value)
         if (a.target.value.length < 10) {
-            setPhoneError('Mobil nömrə 10 rəqəmdən qısa olmamalıdır.')
+            setPhoneError('Phone number must not be shorter than 10 characters.')
         }
         else {
             setPhoneError("")
@@ -118,10 +118,10 @@ export default function Login() {
     const handlePassword = (a) => {
         setPassword(a.target.value)
         if (a.target.value.length < 4) {
-            setPasswordError('Şifrə 4 simvoldan qısa olmamalıdır.')
+            setPasswordError('Password must not be shorter than 4 characters.')
         }
         else if (a.target.value !== passwordAgain) {
-            setPasswordError('Şifrələr eyni deyil.')
+            setPasswordError('Passwords are not the same.')
         }
         else {
             setPasswordError("")
@@ -131,7 +131,7 @@ export default function Login() {
     const handlePasswordAgain = (a) => {
         setPasswordAgain(a.target.value)
         if (a.target.value !== password) {
-            setPasswordAgainError('Şifrələr eyni deyil.')
+            setPasswordAgainError('Passwords are not the same.')
         }
         else {
             setPasswordAgainError("")
@@ -179,8 +179,8 @@ export default function Login() {
                         <div className="enter">
                             <div className="entranceinfo">
                                 <div className="top">
-                                    <h1> Şəxsi Kabinet </h1>
-                                    <h2 onClick={registration}> Qeydiyyatdan keç</h2>
+                                    <h1> Sign in </h1>
+                                    <h2 onClick={registration}>Sign up</h2>
                                 </div>
                                 <input
                                     type="text"
@@ -193,7 +193,7 @@ export default function Login() {
                                     name="enterpassword"
                                     id="password"
                                 />
-                                <span className='forgotpassword'> Şifrəni unutmusunuz? </span>
+                                <span className='forgotpassword'> Forgot your password? </span>
                                 <div className="btns">
                                     <div className="socialacc">
                                         <img src={googleicon} alt="google icon" />
@@ -209,8 +209,8 @@ export default function Login() {
                             <form>
                                 <div className="logininfo">
                                     <div className="top">
-                                        <h1> Qeydiyyat </h1>
-                                        <h2 onClick={registration}> Qeydiyyatım mövcuddur </h2>
+                                        <h1> Register </h1>
+                                        <h2 onClick={registration}> Sign in </h2>
                                     </div>
 
                                     <div className="infoinput">
@@ -228,7 +228,7 @@ export default function Login() {
 
                                     <div className="infoinput">
                                         {(nameFull && nameError) && <span className='errorspan' style={{ color: 'red' }}> {nameError} </span>}
-                                        <label htmlFor="username"> Ad, Soyad, Ata adı * </label>
+                                        <label htmlFor="username"> Name, Surname * </label>
                                         <input
                                             type="text"
                                             name="name"
@@ -254,7 +254,7 @@ export default function Login() {
 
                                     <div className="infoinput">
                                         {(phoneFull && phoneError) && <span className='errorspan' style={{ color: 'red' }}> {phoneError} </span>}
-                                        <label htmlFor="userphone"> Mobil nömrə * </label>
+                                        <label htmlFor="userphone"> Phone number * </label>
                                         <input
                                             type="tel"
                                             name="phone"
@@ -268,7 +268,7 @@ export default function Login() {
 
                                     <div className="infoinput">
                                         {(passwordFull && passwordError) && <span className='errorspan' style={{ color: 'red' }}> {passwordError} </span>}
-                                        <label htmlFor="userpassword"> Şifrə * </label>
+                                        <label htmlFor="userpassword"> Password * </label>
                                         <input
                                             type={eye1 ? 'text' : 'password'}
                                             name="password"
@@ -295,7 +295,7 @@ export default function Login() {
 
                                     <div className="infoinput">
                                         {(passwordAgainFull && passwordAgainError) && <span className='errorspan' style={{ color: 'red' }}> {passwordAgainError} </span>}
-                                        <label htmlFor="userpasswordagain"> Şifrəni təkrarla * </label>
+                                        <label htmlFor="userpasswordagain"> Repeat password * </label>
                                         <input
                                             type={eye2 ? 'text' : 'password'}
                                             name="passwordAgain"
@@ -336,19 +336,19 @@ export default function Login() {
                                             <div className="bounce">
                                                 <div className="ball"></div>
                                             </div>
+                                            I agree with
                                             <a href="http://localhost:3000/privacypolicy" target='_blank' rel="noopener noreferrer">
-                                                Məxfilik siyasəti
+                                                Privacy Policy
                                             </a>
-                                            və
+                                            and
                                             <a href="http://localhost:3000/termsofsale" target='_blank' rel="noopener noreferrer">
-                                                satış qaydaları
+                                                Terms of Sale
                                             </a>
-                                            ilə razıyam.
                                         </label>
                                     </div>
 
                                     <button disabled={!formValid}>
-                                        Qeydiyyatı tamamla
+                                        Register
                                     </button>
                                 </div>
                             </form>
