@@ -189,7 +189,7 @@ export default function Login() {
                                 />
                                 <input
                                     type="password"
-                                    placeholder='Şifrə*'
+                                    placeholder='Password*'
                                     name="enterpassword"
                                     id="password"
                                 />
