@@ -1821,7 +1821,7 @@ const initState = {
         },
         {
             id: 301,
-            name: "Composition 1410",
+            name: "Bouquet 1410",
             count: 1,
             price: 400,
             type: "wowbouquets",
@@ -1832,7 +1832,7 @@ const initState = {
         },
         {
             id: 302,
-            name: "Composition 1411",
+            name: "Bouquet 1411",
             count: 1,
             price: 350,
             type: "wowbouquets",
@@ -1843,7 +1843,7 @@ const initState = {
         },
         {
             id: 303,
-            name: "Composition 1412",
+            name: "Bouquet 1412",
             count: 1,
             price: 375,
             type: "wowbouquets",
@@ -1854,7 +1854,7 @@ const initState = {
         },
         {
             id: 304,
-            name: "Composition 1413",
+            name: "Bouquet 1413",
             count: 1,
             price: 330,
             type: "wowbouquets",
@@ -1865,7 +1865,7 @@ const initState = {
         },
         {
             id: 305,
-            name: "Composition 1414",
+            name: "Bouquet 1414",
             count: 1,
             price: 340,
             type: "wowbouquets",
@@ -1876,7 +1876,7 @@ const initState = {
         },
         {
             id: 306,
-            name: "Composition 1415",
+            name: "Bouquet 1415",
             count: 1,
             price: 385,
             type: "wowbouquets",
@@ -1887,7 +1887,7 @@ const initState = {
         },
         {
             id: 307,
-            name: "Composition 1416",
+            name: "Bouquet 1416",
             count: 1,
             price: 420,
             type: "wowbouquets",
@@ -1898,7 +1898,7 @@ const initState = {
         },
         {
             id: 308,
-            name: "Composition 1417",
+            name: "Bouquet 1417",
             count: 1,
             price: 370,
             type: "wowbouquets",
@@ -1909,7 +1909,7 @@ const initState = {
         },
         {
             id: 309,
-            name: "Composition 1418",
+            name: "Bouquet 1418",
             count: 1,
             price: 320,
             type: "wowbouquets",
@@ -1920,7 +1920,7 @@ const initState = {
         },
         {
             id: 310,
-            name: "Composition 1419",
+            name: "Bouquet 1419",
             count: 1,
             price: 380,
             type: "wowbouquets",
@@ -1931,7 +1931,7 @@ const initState = {
         },
         {
             id: 311,
-            name: "Composition 1420",
+            name: "Bouquet 1420",
             count: 1,
             price: 300,
             type: "wowbouquets",
@@ -1942,7 +1942,7 @@ const initState = {
         },
         {
             id: 312,
-            name: "Composition 1421",
+            name: "Bouquet 1421",
             count: 1,
             price: 360,
             type: "wowbouquets",
@@ -1953,95 +1953,95 @@ const initState = {
         },
         {
             id: 401,
-            name: "Composition 1510",
+            name: "Bouquet 1510",
             count: 1,
             price: 25,
             type: "minibouquets",
             image1: "https://portofloral.ru/upload/iblock/338/3385a154779a525c404cadb2e2c7dcd2.jpg",
             image2: "https://portofloral.ru/upload/iblock/e27/e2797de5e4253c426afb3896bf208053.jpg",
             size: "kiçik",
-            color: ""
+            color: "açıq"
         },
         {
             id: 402,
-            name: "Composition 1511",
+            name: "Bouquet 1511",
             count: 1,
             price: 15,
             type: "minibouquets",
             image1: "https://portofloral.ru/upload/iblock/193/1930652ec58835fdcf6e97c95e528353.jpg",
             image2: "https://portofloral.ru/upload/iblock/db8/db8bf102d3bc8c6743f4e961799d50cb.jpg",
             size: "kiçik",
-            color: ""
+            color: "açıq"
         },
         {
             id: 403,
-            name: "Composition 1512",
+            name: "Bouquet 1512",
             count: 1,
             price: 20,
             type: "minibouquets",
             image1: "https://portofloral.ru/upload/iblock/d22/d2281bbbbe7a5dac4a2aab38f1879bad.jpg",
             image2: "https://portofloral.ru/upload/iblock/d22/d2281bbbbe7a5dac4a2aab38f1879bad.jpg",
             size: "kiçik",
-            color: ""
+            color: "zəngin"
         },
         {
             id: 404,
-            name: "Composition 1513",
+            name: "Bouquet 1513",
             count: 1,
             price: 15,
             type: "minibouquets",
             image1: "https://portofloral.ru/upload/iblock/94c/94c3bfb5569ca0aebc3a3867095d8a68.jpg",
             image2: "https://portofloral.ru/upload/iblock/1b7/1b7cb3788feb2da6400059073a574aff.jpg",
             size: "kiçik",
-            color: ""
+            color: "zərif"
         },
         {
             id: 405,
-            name: "Composition 1514",
+            name: "Bouquet 1514",
             count: 1,
             price: 20,
             type: "minibouquets",
             image1: "https://portofloral.ru/upload/iblock/fa1/fa1c85124d708f760bc5fbc313a9408b.jpg",
             image2: "https://portofloral.ru/upload/iblock/37b/37bf7429abd7244ba9304a3d3a98884a.jpg",
             size: "kiçik",
-            color: ""
+            color: "parlaq"
         },
         {
             id: 406,
-            name: "Composition 1515",
+            name: "Bouquet 1515",
             count: 1,
             price: 20,
             type: "minibouquets",
             image1: "https://portofloral.ru/upload/iblock/907/90765f2b748028549e2a60db06eef1b5.jpg",
             image2: "https://portofloral.ru/upload/iblock/f94/f9438d11c62841a9352eacac2af741b8.jpg",
             size: "kiçik",
-            color: ""
+            color: "parlaq"
         },
         {
             id: 407,
-            name: "Composition 1516",
+            name: "Bouquet 1516",
             count: 1,
             price: 20,
             type: "minibouquets",
             image1: "https://portofloral.ru/upload/iblock/d41/d41323bf879e501599e80b40d95d5e2d.jpg",
             image2: "https://portofloral.ru/upload/iblock/9dd/9dd422bce8a85344f06b412586071d4b.jpg",
             size: "kiçik",
-            color: ""
+            color: "pastel"
         },
         {
             id: 408,
-            name: "Composition 1517",
+            name: "Bouquet 1517",
             count: 1,
             price: 25,
             type: "minibouquets",
             image1: "https://portofloral.ru/upload/iblock/8d3/8d376941a039860eed30a3152bdd0977.jpg",
             image2: "https://portofloral.ru/upload/iblock/2b0/2b004d00408fd9a52b9d65d810f3cd04.jpg",
             size: "kiçik",
-            color: ""
+            color: "pastel"
         },
         {
             id: 501,
-            name: "Composition 1610",
+            name: "Bouquet 1610",
             count: 1,
             price: 100,
             type: "mensbouquets",
@@ -2052,7 +2052,7 @@ const initState = {
         },
         {
             id: 502,
-            name: "Composition 1611",
+            name: "Bouquet 1611",
             count: 1,
             price: 60,
             type: "mensbouquets",
@@ -2063,7 +2063,7 @@ const initState = {
         },
         {
             id: 503,
-            name: "Composition 1612",
+            name: "Bouquet 1612",
             count: 1,
             price: 80,
             type: "mensbouquets",
@@ -2074,7 +2074,7 @@ const initState = {
         },
         {
             id: 504,
-            name: "Composition 1613",
+            name: "Bouquet 1613",
             count: 1,
             price: 70,
             type: "mensbouquets",

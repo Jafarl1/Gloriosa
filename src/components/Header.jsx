@@ -19,13 +19,6 @@ export default function Header() {
 
     const { allData } = useSelector(state => state)
 
-    // const [allData, setAllData] = useState([]);
-    // useEffect(() => {
-    //     fetch("http://localhost:7000/allData")
-    //         .then(res => res.json())
-    //         .then(data => setAllData(data))
-    // }, []);
-
     const [filteredData, setFilteredData] = useState([]);
 
     useEffect(() => {
@@ -145,7 +138,7 @@ export default function Header() {
                         name="searchinp"
                         id="searchinp"
                         value={value}
-                        placeholder='Axtar...'
+                        placeholder='Search...'
                         onChange={(x) => setValue(x.target.value)}
                     />
                     <i className="fa-solid fa-angle-up closenow" onClick={() => clickSearch()}></i>
@@ -153,7 +146,6 @@ export default function Header() {
                     <div style={{ display: value ? "block" : "none" }} className='filtered-items'>
                         {
                             filteredData.map(a =>
-                                // <Link to={`/${a.type}#${a.name.replace(/\s/g,"").replace(/ə/gi,'e')}`} key={a.id}>
                                 <Link to={`/productitem/${a.id}`} key={a.id}>
                                     <img src={a.image || a.image1} alt="Flowers" />
                                     <div className="filteredItemInfo">
@@ -209,16 +201,16 @@ export default function Header() {
                     </NavLink>
                     <div className="menu">
                         <NavLink className={'pagelink'} to="/about">
-                            Haqqımızda
+                            About us
                         </NavLink>
                         <NavLink className={'pagelink'} to="/products">
-                            Məhsullar
+                            Products
                         </NavLink>
                         <NavLink className={'pagelink'} to="/blog">
-                            Bloq
+                            Blog
                         </NavLink>
                         <NavLink className={'pagelink'} to="/contact">
-                            Əlaqə
+                            Contact
                         </NavLink>
                     </div>
                     <div className="userside">
@@ -228,19 +220,59 @@ export default function Header() {
                         <NavLink to='/login'> <img src={user} alt="user" style={{ width: '77%' }} /> </NavLink>
                     </div>
                 </div>
+
                 <div className={srcline ? 'searchdiv2 open2' : 'searchdiv2'}>
                     <input
                         type="search"
                         name="searchinp2"
                         id="searchinp2"
                         value={value}
+                        placeholder='Search...'
+                        onChange={(x) => setValue(x.target.value)}
+                    />
+                    <i className="fa-solid fa-angle-up closenow2" onClick={() => openSrcLine()}></i>
+                </div>
+                <div style={{ display: value ? "block" : "none" }} className='filtered-items2'>
+                    {
+                        filteredData.map(a =>
+                            <Link to={`/productitem/${a.id}`} key={a.id}>
+                                <img src={a.image || a.image1} alt="Flowers" />
+                                <div className="filteredItemInfo">
+                                    <p style={{ fontSize: '20px' }}>{a.name}</p>
+                                    <p>{a.price} AZN</p>
+                                </div>
+                            </Link>
+                        )
+                    }
+                </div>
+
+
+                {/* <div className={toggle ? 'searchdiv open' : 'searchdiv'}>
+                    <input
+                        type="search"
+                        name="searchinp"
+                        id="searchinp"
+                        value={value}
                         placeholder='Axtar...'
                         onChange={(x) => setValue(x.target.value)}
                     />
-                    {/* <i className="fa-solid fa-magnifying-glass searchnow2"></i>  */}
-                    <i className="fa-solid fa-angle-up closenow2" onClick={() => openSrcLine()}></i>
+                    <i className="fa-solid fa-angle-up closenow" onClick={() => clickSearch()}></i>
 
-                </div>
+                    <div style={{ display: value ? "block" : "none" }} className='filtered-items'>
+                        {
+                            filteredData.map(a =>
+                                <Link to={`/productitem/${a.id}`} key={a.id}>
+                                    <img src={a.image || a.image1} alt="Flowers" />
+                                    <div className="filteredItemInfo">
+                                        <p style={{ fontSize: '20px' }}>{a.name}</p>
+                                        <p>{a.price} AZN</p>
+                                    </div>
+                                </Link>
+                            )
+                        }
+                    </div>
+                </div> */}
+
             </div>
         </>
     )

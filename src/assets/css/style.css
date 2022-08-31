@@ -2853,28 +2853,45 @@ input[type="checkbox"]:checked + label .bounce .ball {
   max-height: 400px;
   overflow-y: auto;
 }
-.filtered-items::-webkit-scrollbar {
+.filtered-items2 {
+  width: 710px;
+  max-height: 400px;
+  background-color: #feedee;
+  box-shadow: 0px 3px 6px -2px #000;
+  position: fixed;
+  top: 75px;
+  left: calc(50% - 350px);
+  overflow-y: auto;
+}
+.filtered-items::-webkit-scrollbar,
+.filtered-items2::-webkit-scrollbar {
   width: 6px;
 }
-.filtered-items::-webkit-scrollbar-track {
+.filtered-items::-webkit-scrollbar-track,
+.filtered-items2::-webkit-scrollbar-track {
   background: whitesmoke;
 }
-.filtered-items::-webkit-scrollbar-thumb {
+.filtered-items::-webkit-scrollbar-thumb,
+.filtered-items2::-webkit-scrollbar-thumb {
   border: 1px solid rgba(245, 245, 245, 0.57);
   background: #e34f53;
   border-radius: 3px;
 }
-.filtered-items::-webkit-scrollbar-thumb:hover {
+.filtered-items::-webkit-scrollbar-thumb:hover,
+.filtered-items2::-webkit-scrollbar-thumb:hover {
   background: whitesmoke;
 }
-.filtered-items a {
+.filtered-items a,
+.filtered-items2 a {
   display: flex;
   padding: 10px 20px;
 }
-.filtered-items a:hover {
+.filtered-items a:hover,
+.filtered-items2 a:hover {
   background-color: #f1dcde95;
 }
-.filtered-items img {
+.filtered-items img,
+.filtered-items2 img {
   width: 80px;
   height: 80px;
 }
