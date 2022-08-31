@@ -2106,6 +2106,9 @@ input[type="checkbox"]:checked + label .bounce .ball {
   height: 120px;
   background-color: #feedee;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
 }
 .customer-comment img {
   height: 100%;
@@ -2135,6 +2138,19 @@ input[type="checkbox"]:checked + label .bounce .ball {
   margin-left: 10px;
   padding: 25px;
   color: #333333;
+}
+.deleteComment {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  color: var(--light-red);
+  font-size: 28px;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+.deleteComment:hover {
+  color: var(--blood);
 }
 
 /* <========== C O N T A C T ==========> */
@@ -2922,15 +2938,6 @@ input[type="checkbox"]:checked + label .bounce .ball {
   margin-left: 40px;
   margin-top: 40px;
 }
-
-
-
-
-
-
-
-
-
 
 /* <========== F A V O R I T E   P A G E ==========> */
 

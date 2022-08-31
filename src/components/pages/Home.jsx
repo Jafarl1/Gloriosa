@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from 'react-router-dom'
-import { useSelector } from 'react-redux'
+import { NavLink } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
 import { EffectCube, Pagination, Autoplay, EffectFlip, Mousewheel } from "swiper";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Moment from 'moment';
-import swal from 'sweetalert'
-import close from '../../assets/images/icons/close.png'
+import swal from 'sweetalert';
+import { nanoid } from 'nanoid';
 
+import Additions from "./Additions";
+
+import close from '../../assets/images/icons/close.png'
 import bouquet from '../../assets/images/icons/flower-bouquet.png'
 import delivery from '../../assets/images/icons/delivery.png'
 import bonus from '../../assets/images/icons/bonus.png'
@@ -19,9 +22,6 @@ import hydrangeas from '../../assets/images/hydrangea-blog.jpg'
 import bouquetcare from '../../assets/images/bouquet-blog.jpg'
 import compositioncare from '../../assets/images/composition-blog.jpg'
 import star from '../../assets/images/icons/star.svg'
-
-import Additions from "./Additions";
-
 
 
 
@@ -127,6 +127,7 @@ export default function Home() {
       surname: mySurname,
       comment: comment,
       date: date,
+      id: nanoid()
     }])
 
     swal({
@@ -145,6 +146,11 @@ export default function Home() {
 
   const allComments = () => {
     setCommentsPage(!commentsPage)
+  }
+
+  const removeComment = (id) => {
+    let removed = customerComments.filter(e => e.id !== id)
+    setCustomerComments(removed)
   }
 
 
@@ -635,21 +641,26 @@ export default function Home() {
                 {
                   customerComments.map((a, i) => (
                     <div className="customer-comment" key={i}>
-                      <img src="https://media.istockphoto.com/vectors/user-icon-flat-isolated-on-white-background-user-symbol-vector-vector-id1300845620?k=20&m=1300845620&s=612x612&w=0&h=f4XTZDAv7NPuZbG0habSpU0sNgECM0X7nbKzTUta3n8=" alt="Avatar" />
-                      <div className="customer">
-                        <h3>
-                          {a.name}
-                        </h3>
-                        <h4>
-                          {a.surname}
-                        </h4>
-                        <p style={{ marginTop: '10px' }}>
-                          {a.date}
+                      <div style={{height: '100%', width: 'auto', display: 'flex'}}>
+                        <img src="https://media.istockphoto.com/vectors/user-icon-flat-isolated-on-white-background-user-symbol-vector-vector-id1300845620?k=20&m=1300845620&s=612x612&w=0&h=f4XTZDAv7NPuZbG0habSpU0sNgECM0X7nbKzTUta3n8=" alt="Avatar" />
+                        <div className="customer">
+                          <h3>
+                            {a.name}
+                          </h3>
+                          <h4>
+                            {a.surname}
+                          </h4>
+                          <p style={{ marginTop: '10px' }}>
+                            {a.date}
+                          </p>
+                        </div>
+                        <p id="comment">
+                          {a.comment}
                         </p>
                       </div>
-                      <p id="comment">
-                        {a.comment}
-                      </p>
+                      <button className="deleteComment" onClick={() => removeComment(a.id)}>
+                        <i className="fa-solid fa-trash-can"></i>
+                      </button>
                     </div>
                   ))
                 }
