@@ -68,7 +68,7 @@ export default function Footer() {
             <div className="footer-contact">
               <i className="fa-solid fa-location-dot"></i>
               <a href="https://www.google.com/maps/place/GLORIOSA/@40.3777275,49.8184819,17z/data=!3m1!4b1!4m5!3m4!1s0x40307df65e4a889d:0xdf3527f139fdfabc!8m2!3d40.3777275!4d49.8206706" target='_blank' rel="noopener noreferrer">
-                İnşaatçılar prospekti 20A
+                20A Inshaatchilar Avenue (near Elmlar m-s)
               </a>
             </div>
           </div>

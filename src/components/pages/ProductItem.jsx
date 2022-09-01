@@ -4,10 +4,17 @@ import { useSelector } from 'react-redux';
 import { useLocation, NavLink } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js"
 import { Scrollbar } from "swiper"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 export default function ProductItem() {
+
+  AOS.init({
+    duration: 800,
+    easing: 'ease'
+  })
 
   const { pathname } = useLocation();
   const id = pathname.substr(-3).includes('/') ? pathname.substr(-2) : pathname.substr(-3)
@@ -65,7 +72,7 @@ export default function ProductItem() {
   return (
     <>
       <div className="selected-page">
-        <div className="page-head">
+        <div className="page-head" data-aos="fade-left">
           <h1>
             More about product
           </h1>
@@ -83,7 +90,7 @@ export default function ProductItem() {
                 item.type === 'authorbouquets' ? 'Author bouquets' :
                   item.type === 'cardspage' ? 'Cards' :
                     item.type === 'compositions' ? 'Compositions' :
-                      item.type === 'mensbouquets' ? "Mens' bouquets":
+                      item.type === 'mensbouquets' ? "Mens' bouquets" :
                         item.type === 'minibouquets' ? 'Mini bouquets' :
                           item.type === 'monobouquets' ? 'Mono bouquets' :
                             item.type === 'seasonbouquets' ? 'Season bouquets' :
@@ -97,7 +104,7 @@ export default function ProductItem() {
             </NavLink>
           </div>
         </div>
-        <div className="selected">
+        <div className="selected" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing='ease-out'>
           <Swiper
             scrollbar={true}
             modules={[Scrollbar]}

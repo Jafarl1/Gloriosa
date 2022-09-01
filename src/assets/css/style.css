@@ -2552,6 +2552,33 @@ input[type="checkbox"]:checked + label .bounce .ball {
   font-size: 18px;
   color: #feedee;
 }
+.moreaboutblog {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  background-image: url(../images/Homeback1.png);
+  background-size: cover;
+  background-position: center;
+}
+.more-item {
+  width: 1150px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+.more-item img {
+  width: 100%;
+  margin-bottom: 80px;
+}
+.more-item p {
+  width: 75%;
+  font-size: 22px;
+  color: #e34f54db;
+  letter-spacing: 1;
+  margin-left: 10px;
+}
+
+
+
 
 /* <========== A U T H O R P A G E ==========> */
 
@@ -3243,6 +3270,7 @@ input[type="checkbox"]:checked + label .bounce .ball {
 .selected img {
   width: 480px;
   height: auto;
+  cursor: pointer;
 }
 .proditem-swiper {
   width: 480px;

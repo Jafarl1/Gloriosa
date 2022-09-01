@@ -1171,52 +1171,59 @@ const initState = {
     blogs: [
         {
             id: 30,
-            name: "Güllər dünyasına xoş gəlmisiniz!",
-            count: 1,
-            type: "Müştərilərə məsləhətlər",
-            image: "../blog/small/welcome-blog.jpg"
+            name: "Welcome to the world of flowers!",
+            type: "Tips for customers",
+            image: "../blog/small/welcome-blog.jpg",
+            mainimage: "../blog/welcome-blog.jpg",
+            text: "Introductory. Do you remember how at school in math the teacher rolled her eyes with the look 'it's the same element-Arno!' Watson, damn. And how this observation is relevant in adult life! After all, in fact, what professionals in the field seem to be common truths for the rest - like those 'elementary' mathematical problems. But we're here, actually, about flowers). And so. No flowers are worth a month! If they are standing, this is an exception confirming the rule. A good durability for a prefabricated bouquet is considered to be an average of a week (about numerous nuances a little later), for compositions (flowers that are not in water, but in an oasis, floral foam) - 5-6 days. At the same time, it is important to understand that the life of a cut flower equally depends on its freshness, which, of course, is the concern of the seller, and on the conditions in which it lives with the recipient. Moreover, each variety of flower has its own lifetime in the vase. Read on and we will tell you how to properly care for bouquets and compositions, which flowers have what durability and we will tell you many more flower like hacks!"
         },
         {
             id: 31,
-            name: "Import qızıl güllər",
-            count: 1,
-            type: "Məhsul haqda məlumat",
-            image: "../blog/small/ecuador-blog.jpg"
+            name: "Imported roses",
+            type: "Product information",
+            image: "../blog/small/ecuador-blog.jpg",
+            mainimage: "../blog/ecuador-blog.jpg",
+            text: "Ecuadorian roses in our country gained insane popularity in the 90s. Then it was believed that the longer the rose, the better. That's it). The fact is that Ecuador is a country whose territory is located at a high altitude above sea level (for example, the capital, Quito - 2850m, for comparison - the highest point of Moscow - 255m), and with a large number of sunny days, the average air temperature is much lower than in less 'elevated' states. Such a temperature-solar combination allows roses to grow taller and solder off a larger bud than anywhere else on earth. The fashion for super-long roses has passed (which we personally are incredibly happy about), and beautiful and very persistent Ecuadorian roses have been 'tasted' by florists and designer bouquet salons around the world) Ecuadorian plantations began to select varieties more interesting in color and 'promotion of the bud. Elite categories of Ecuadorian roses from the 'garden like' collections have appeared - as garden roses. These varieties deserve special attention, as they combine the delicate and non-trivial aesthetics of the garden rose and the resistance of the Ecuadorian. They are usually priced higher than the classic Ecuadorian rose, but we are convinced that it is worth it)). As for the durability of the Ecuadorian rose, it also varies greatly from variety. We usually call the durability from 4 days to clients, but this is such a 'safe' minimum. In fact, if you don't mock the Ecuadorian rose very much, it costs 7 days plus, and some varieties for 2 weeks. Another not the most obvious point is that the shorter the stem of the flower, the better it drinks, therefore, the longer it will stay in the vase."
         },
         {
             id: 32,
-            name: "Qortenziya",
-            count: 1,
-            type: "Məhsul haqda məlumat",
-            image: "../blog/small/hydrangea-blog.jpg"
+            name: "Hydrangea",
+            type: "Product information",
+            image: "../blog/small/hydrangea-blog.jpg",
+            mainimage: "../blog/hydrangea-blog.jpg",
+            text: "One of the most desirable and at the same time the most capricious types of flower, with a voluminous inflorescence and a rich palette of colors. In modern floristry, hydrangea is a very frequent guest. Whether it's wedding decorations or bouquets about and without - hydrangea will invariably decorate and complement the floral composition. Of course, you can do without it, but it's much easier to just follow some rules when communicating with this amazing flower. The first and most important thing is that hydrangea loves water very much. Even a short period of time without water is disastrous for her. Hydrangea should never be transported 'dry'. Even if for some reason you do not want a 'wet' foot on the bouquet - do not prevent florists from putting a flask of water on hydrangea's foot.            The love of moisture also extends to the air - hydrangea feels good in rooms with high humidity, but since this situation is rather an exception in our climate, hydrangea is recommended to be sprayed from a spray bottle.⁣⁣ The fact is that due to the large surface area of hydrangea inflorescences, it evaporates moisture faster than it drinks, hence all the recommendations regarding water and spraying.⁣⁣⠀In addition, hydrangea is one of the most intolerant flowers to direct sunlight. This is also due to the large area of the inflorescence.And in order for the beautiful hydrangea to drink better when pruning, it is necessary to split the stem.⁣⁣"
         },
         {
             id: 33,
-            name: "Bouquetə qulluq",
-            count: 1,
-            type: "Müştərilərə məsləhətlər",
-            image: "../blog/small/bouquet-blog.jpg"
+            name: "Bouquet care",
+            type: "Tips for customers",
+            image: "../blog/small/bouquet-blog.jpg",
+            mainimage: "../blog/bouquet-blog.jpg",
+            text: "You are the lucky owner of a prefabricated bouquet! Your bouquet will definitely NOT be happy: high temperature — do not put it in a hot and/or stuffy place, as well as near the battery; next to fruits — they emit ethylene, which greatly accelerates the process of flower wilting; draught; direct sunlight;very dry air. Based on this, choosing the right place of residence for your bouquet is already half the job! Let's go directly to the care of the bouquet: If you received a bouquet in a shipping vessel with water, then simply rearrange it into a vase with cool water, after pouring Chrysal (a means of fertilizing to prolong the life of flowers) into it and stirring it; Since the length of the stems in the bouquet may be different, make sure that all the stems reach the water; For the next few days, just pour water into the vase; It is necessary to change the water and re-cut the bouquet only when the water becomes cloudy, usually this happens for 4-5 days.  If you replace it with water without fertilizing, you need to switch to a more frequent water change, ideally daily. important! If you have received a bouquet 'on dry' (without a shipping vessel with water), it must be pruned before placing it in a vase by at least 1.5 cm. It is necessary to prune the bouquet with SHARP scissors, a knife or a pruner. If you prune the stems with a blunt instrument, the 'vessels' of the flower will be squeezed and it will not drink water well. In a composite bouquet, different varieties of flowers have different durability. Therefore, if a flower has wilted, you can simply remove it from the bouquet."
         },
         {
             id: 34,
-            name: "Compositionya qulluq",
-            count: 1,
-            type: "Müştərilərə məsləhətlər",
-            image: "../blog/small/composition-blog.jpg"
+            name: "Composition care",
+            type: "Tips for customers",
+            image: "../blog/small/composition-blog.jpg",
+            mainimage: "../blog/composition-blog.jpg",
+            text: "A flower arrangement (a composition in a hatbox, a composition in a wooden box) differs from an ordinary bouquet in that the flower stems are placed in a special floral sponge (oasis). Before assembling the composition, this sponge is soaked in water and the flowers get moisture from it. It is necessary to choose a place for the composition according to the same principle as for any other live cut flowers, avoiding: high temperature — do not put it in a hot and/or stuffy place, as well as to the battery; the neighborhood with fruits — they secrete ethylene, which is the 'hormone' of floral aging and greatly accelerates the process of wilting; draughts; direct sunlight; very dry air.It is necessary to add water to the sponge daily, otherwise the composition will dry up on the 2nd or 3rd day. A good durability for the composition in the oasis is considered to be an average of 5 days, and if all the conditions of care are observed, the durability may increase. Different varieties of flowers have different resistance. Therefore, if a flower has wilted, you can simply remove it from the composition."
         },
         {
             id: 35,
-            name: "Qladiolus",
-            count: 1,
-            type: "Məhsul haqda məlumat",
-            image: "../blog/small/gladiolus-blog.jpg"
+            name: "Gladiolus",
+            type: "Product information",
+            image: "../blog/small/gladiolus-blog.jpg",
+            mainimage: "../blog/gladiolus-blog.jpg",
+            text: "Gladiolus, the brother of Iris, means 'sword' in Latin. It is popularly called 'Skewer'. This is due to the fact that the leaves have a sword-shaped shape. The height of the flower can reach up to 1.5 meters, and the inflorescences cover about 80 centimeters of the stem length. On the territory of Russia, gladiolus is widely distributed in Asia, Central Europe, tropical and subtropical regions of Africa and the Mediterranean, as well as Western Siberia. The plant has a difficult character. It is very light-loving. And although gladioli adequately tolerate a lack of moisture, it is better not to neglect this and feed the cut flower to prolong its life. Selectors have bred about 100,000 varieties of gladiolus, differing in stem height, size and density of flowers and inflorescences, color and even flowering time."
         },
         {
             id: 36,
-            name: "Yabanı qızıl güllər",
-            count: 1,
-            type: "Məhsul haqda məlumat",
-            image: "../blog/small/brush-blog.jpg"
+            name: "Bush roses",
+            type: "Product information",
+            image: "../blog/small/brush-blog.jpg",
+            mainimage: "../blog/brush-blog.jpg",
+            text: "In fact, this category of roses includes everything except Ecuadorian and garden roses. In terms of durability, they differ very much depending on the variety and manufacturer. According to our observations (and these are observations, because even after reading a lot of literature on the characteristics of varieties, we could not find unambiguous answers on the resistance of a particular variety, we had to act empirically) all medium-sized single-headed roses can be divided into Russian, Kenyan and Dutch. The most unstable and the cheapest is Kenyan (not to be confused with bush Kenyan). And yet, this is the most ahem.. a fraud-intensive option. It is this rose that is sold in online stores under the slogans - 101 roses for 3000rubles, the height of such a rose is 15-20 centimeters, the size of the bud is 3 centimeters in height, durability - well, if it's a day. We somehow bought one so that our promoter would distribute it at the exhibition along with business cards) it looked proportionate... Of course, there are decent varieties among the Kenyan rose, which are valued for their color and cost quite a long time, but their price is already different (read about these varieties in the following articles). The Russian rose is a rather classic version of a compromise flower, it is not very expensive, with acceptable durability and a classic appearance. The main danger of such a rose is that if in season, it is really quite high-quality and well worth it, in the period from mid-autumn to mid-spring, the durability in the vase of the recipient is much lower. This is again from the category of observations, but we assume that this is due to the peculiarities of growing this rose in greenhouses. Well, as with cucumbers, approximately). Dutch small-bud roses are not as resistant as Ecuadorian ones, but some varieties certainly deserve attention."
         }
     ],
     allData: [
@@ -2419,6 +2426,6 @@ const initState = {
     ]
 }
 
-export default function reducer (state = initState){
+export default function reducer(state = initState) {
     return state
 }

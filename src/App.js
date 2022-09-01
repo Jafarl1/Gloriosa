@@ -27,13 +27,11 @@ import Weddingbouquets from './components/pages/prodpages/Weddingbouquets'
 import Wowbouquets from './components/pages/prodpages/Wowbouquets'
 
 import ProductItem from './components/pages/ProductItem';
+import MoreAboutBlog from './components/pages/MoreAboutBlog';
 
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css"
 import './assets/css/nouislider.min.css'
-
-
-
 
 
 
@@ -72,6 +70,7 @@ function App() {
           <Route path='/weddingbouquets' element={<Weddingbouquets />} />
           <Route path='/wowbouquets' element={<Wowbouquets />} />
           <Route path='/productitem/*' element={<ProductItem />} />
+          <Route path='/moreaboutblog/*' element={<MoreAboutBlog />} />
         </Routes>
       <Footer />
     </>

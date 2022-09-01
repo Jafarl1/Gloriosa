@@ -316,8 +316,8 @@ export default function Home() {
               </div>
               <div className="blogtext">
                 <span> Product information </span>
-                <h3> İmport qızıl güllər </h3>
-                <p> Bu bloqda Hollandiya və Ekvador qızıl gülləri haqda ətraflı məlumat əldə edə bilərsiniz. </p>
+                <h3> İmported roses </h3>
+                <p> In this blog you can find detailed information about the Dutch and Ecuadorian roses. </p>
               </div>
             </div>
 
@@ -327,8 +327,8 @@ export default function Home() {
               </div>
               <div className="blogtext">
                 <span> Product information </span>
-                <h3> Qortenziya </h3>
-                <p> Bu bloqda Qortenziya gülü haqda ətraflı məlumat əldə edə bilərsiniz. </p>
+                <h3> Hydrangea </h3>
+                <p> In this blog you can learn more about how to properly care for Hydrangea. </p>
               </div>
             </div>
 
@@ -338,8 +338,8 @@ export default function Home() {
               </div>
               <div className="blogtext">
                 <span> Tips for clients </span>
-                <h3> Buketə qulluq </h3>
-                <p> Bu bloqda buketlərə düzgün qulluq etmək barədə ətraflı məlumat əldə edə bilərsiniz. </p>
+                <h3> Bouquet care </h3>
+                <p> In this blog you can learn more about how to properly care for bouquets. </p>
               </div>
             </div>
 
@@ -349,8 +349,8 @@ export default function Home() {
               </div>
               <div className="blogtext">
                 <span> Tips for clients </span>
-                <h3> Kompozisiyaya qulluq </h3>
-                <p> Bu bloqda kompozisiyalara düzgün qulluq etmək barədə ətraflı məlumat əldə edə bilərsiniz. </p>
+                <h3> Composition care </h3>
+                <p> In this blog you can learn more about how to properly care for compositions. </p>
               </div>
             </div>
 

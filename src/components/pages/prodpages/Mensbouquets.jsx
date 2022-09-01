@@ -4,6 +4,8 @@ import { NavLink, Link, useLocation } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
 import { Scrollbar } from "swiper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import azn from '../../../assets/images/icons/azn-gray.png'
 import Sidebar from '../Sidebar';
 import emptypage from '../../../assets/images/icons/emptypage.png'
@@ -12,6 +14,11 @@ import emptypage from '../../../assets/images/icons/emptypage.png'
 
 
 function Mensbouquets() {
+
+  AOS.init({
+    duration: 800,
+    easing: 'ease'
+  })
 
   const { hash } = useLocation();
 
@@ -78,7 +85,7 @@ function Mensbouquets() {
   return (
     <>
       <div className="products-page">
-        <div className="page-head">
+        <div className="page-head" data-aos="zoom-out-left">
           <h1>
             Mens' bouquets
           </h1>

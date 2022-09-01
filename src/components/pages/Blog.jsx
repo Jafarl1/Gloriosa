@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -38,7 +38,7 @@ export default function Blog() {
         <div className="allblogs">
           {
             blogs.map((a, i) => (
-              <div className="blogpage-item" key={i}>
+              <Link to={`/moreaboutblog/${a.id}`} className="blogpage-item" key={i}>
                 <div className="img">
                   <img src={a.image} alt="Blog" />
                 </div>
@@ -48,7 +48,7 @@ export default function Blog() {
                 <span> 
                   {a.type} 
                 </span>
-              </div>
+              </Link>
             ))
           }
 
