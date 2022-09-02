@@ -245,34 +245,6 @@ export default function Header() {
                         )
                     }
                 </div>
-
-
-                {/* <div className={toggle ? 'searchdiv open' : 'searchdiv'}>
-                    <input
-                        type="search"
-                        name="searchinp"
-                        id="searchinp"
-                        value={value}
-                        placeholder='Axtar...'
-                        onChange={(x) => setValue(x.target.value)}
-                    />
-                    <i className="fa-solid fa-angle-up closenow" onClick={() => clickSearch()}></i>
-
-                    <div style={{ display: value ? "block" : "none" }} className='filtered-items'>
-                        {
-                            filteredData.map(a =>
-                                <Link to={`/productitem/${a.id}`} key={a.id}>
-                                    <img src={a.image || a.image1} alt="Flowers" />
-                                    <div className="filteredItemInfo">
-                                        <p style={{ fontSize: '20px' }}>{a.name}</p>
-                                        <p>{a.price} AZN</p>
-                                    </div>
-                                </Link>
-                            )
-                        }
-                    </div>
-                </div> */}
-
             </div>
         </>
     )

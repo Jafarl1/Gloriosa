@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
 import { EffectCube, Pagination, Autoplay, EffectFlip, Mousewheel } from "swiper";
@@ -310,7 +310,7 @@ export default function Home() {
           </div>
           <div className="blogbody" data-aos="fade-left">
 
-            <div className="blogitem">
+            <Link to='/moreaboutblog/31' className="blogitem">
               <div className="blogpic">
                 <img src={importroses} alt="importroses blog" />
               </div>
@@ -319,9 +319,9 @@ export default function Home() {
                 <h3> İmported roses </h3>
                 <p> In this blog you can find detailed information about the Dutch and Ecuadorian roses. </p>
               </div>
-            </div>
+            </Link>
 
-            <div className="blogitem">
+            <Link to='/moreaboutblog/32' className="blogitem">
               <div className="blogpic">
                 <img src={hydrangeas} alt="hydrageas blog" />
               </div>
@@ -330,9 +330,9 @@ export default function Home() {
                 <h3> Hydrangea </h3>
                 <p> In this blog you can learn more about how to properly care for Hydrangea. </p>
               </div>
-            </div>
+            </Link>
 
-            <div className="blogitem">
+            <Link to='/moreaboutblog/33' className="blogitem">
               <div className="blogpic">
                 <img src={bouquetcare} alt="bouquetcare blog" />
               </div>
@@ -341,9 +341,9 @@ export default function Home() {
                 <h3> Bouquet care </h3>
                 <p> In this blog you can learn more about how to properly care for bouquets. </p>
               </div>
-            </div>
+            </Link>
 
-            <div className="blogitem">
+            <Link to='/moreaboutblog/34' className="blogitem">
               <div className="blogpic">
                 <img src={compositioncare} alt="compositioncare blog" />
               </div>
@@ -352,7 +352,7 @@ export default function Home() {
                 <h3> Composition care </h3>
                 <p> In this blog you can learn more about how to properly care for compositions. </p>
               </div>
-            </div>
+            </Link>
 
           </div>
         </div>

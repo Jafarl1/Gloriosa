@@ -8,8 +8,11 @@ function Catalog({setFiltered}) {
 
     const [catalog, setCatalog] = useState(true)
     const [filter, setFilter] = useState(false)
+    
     const loc = window.location.href;
+
     const products = useSelector(state => state)
+
     const category = (window.location.pathname).slice(1);
 
     const allItems = products[category];
@@ -41,6 +44,7 @@ function Catalog({setFiltered}) {
         priceFiltered.forEach(p => {
             byPrice.push(p)
         })
+        
         filteredItems = byPrice;
 
         let byColor = [];
@@ -85,6 +89,7 @@ function Catalog({setFiltered}) {
             [e.target.id]: e.target.checked,
         };
         colorFilters = filters;
+        console.log(colorFilters);
         checkFiltered();
     }
 
