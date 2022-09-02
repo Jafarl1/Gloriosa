@@ -584,14 +584,14 @@ input::selection {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 200px;
+  height: auto;
   background-image: url(../images/Homeback1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
-  /* box-shadow: 0px 0px 8px 2px #6c6c6c32; */
+  flex-direction: column;
+  align-items: center;
 }
 .footer {
   border-top: 2px solid #c5101a;
@@ -684,23 +684,11 @@ input::selection {
   letter-spacing: 0.4px;
   transition: 0.3s;
 }
-/* .footer-pagelink::before {
-  content: '';
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background-color: var(--red);
-  position: absolute;
-  top: 11px;
-  left: -12px;
-  display: none;
-} */
+
 .footer-pagelink:hover {
   color: var(--red);
 }
-/* .footer-pagelink:hover::before{
-  display: flex;
-} */
+
 .footer-contact {
   padding-left: 20px;
 }
@@ -719,6 +707,40 @@ input::selection {
 .footer-contact:hover i,
 .footer-contact:hover a {
   color: var(--red);
+}
+.copyright {
+  width: 1150px;
+  height: 53px;
+  margin: 0 auto;
+  color: var(--light-red);
+}
+.copyright a {
+  color: var(--light-red);
+  margin-left: 10px;
+}
+.c {
+  width: 230px;
+  position: relative;
+}
+.c:hover,
+.c:hover a {
+  color: var(--blood);
+}
+.c:after {
+  content: "";
+  width: 230px;
+  height: 1px;
+  background-color: var(--blood);
+  position: absolute;
+  right: -50%;
+  bottom: -3px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.c:hover:after {
+  position: absolute;
+  right: 3px;
+  opacity: 1;
 }
 
 /* <========== L O G I N ==========> */
@@ -2147,7 +2169,7 @@ input[type="checkbox"]:checked + label .bounce .ball {
   font-size: 28px;
   border: none;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 .deleteComment:hover {
   color: var(--blood);
@@ -2576,9 +2598,6 @@ input[type="checkbox"]:checked + label .bounce .ball {
   letter-spacing: 1;
   margin-left: 10px;
 }
-
-
-
 
 /* <========== A U T H O R P A G E ==========> */
 
@@ -3369,7 +3388,6 @@ input[type="checkbox"]:checked + label .bounce .ball {
     font-size: 40px;
   }
   .additionspage {
-    /* border: 1px solid black; */
     width: 100%;
     height: auto;
   }

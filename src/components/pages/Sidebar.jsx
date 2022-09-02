@@ -1,14 +1,14 @@
-import React, { useState,memo } from 'react'
+import React, { useState, memo } from 'react'
 import { NavLink } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import '../../assets/css/nouislider.min.css'
 import MultiRangeSlider from '../multiRangeSlider/MultiRangeSlider'
 
-function Catalog({setFiltered}) {
+function Catalog({ setFiltered }) {
 
     const [catalog, setCatalog] = useState(true)
     const [filter, setFilter] = useState(false)
-    
+
     const loc = window.location.href;
 
     const products = useSelector(state => state)
@@ -44,7 +44,7 @@ function Catalog({setFiltered}) {
         priceFiltered.forEach(p => {
             byPrice.push(p)
         })
-        
+
         filteredItems = byPrice;
 
         let byColor = [];
@@ -89,7 +89,6 @@ function Catalog({setFiltered}) {
             [e.target.id]: e.target.checked,
         };
         colorFilters = filters;
-        console.log(colorFilters);
         checkFiltered();
     }
 

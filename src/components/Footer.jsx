@@ -73,6 +73,14 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        <div className="copyright">
+          <div className="c">
+            <i className="fa-regular fa-copyright"></i>
+            <a href='https://www.linkedin.com/in/zohrab-jafarli-bb10aa208/' target='_blank' rel="noopener noreferrer">
+              Created by Zohrab Jafarli
+            </a>
+          </div>
+        </div>
       </div>
     </>
   )
