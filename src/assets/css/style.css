@@ -94,6 +94,17 @@ input::selection {
   background-color: rgb(208, 208, 208);
 }
 
+.loader {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+
+
 /* <========== H E A D E R ==========> */
 
 .navbar-back {
@@ -1062,6 +1073,7 @@ input[type="checkbox"]:checked + label .bounce .ball {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: calc(100vh - 100px);
 }
 
 .homepage {
