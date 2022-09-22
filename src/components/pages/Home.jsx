@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 import Moment from 'moment';
 import swal from 'sweetalert';
 import { nanoid } from 'nanoid';
-import { Oval } from 'react-loader-spinner'
+import PuffLoader from "react-spinners/PuffLoader";
 
 import Additions from "./Additions";
 
@@ -27,28 +27,24 @@ import star from '../../assets/images/icons/star.svg'
 
 
 export default function Home() {
+
   AOS.init({
     duration: 800,
     easing: 'ease'
   })
 
-  const { bestsellers } = useSelector(state => state)
-  const { mainslider } = useSelector(state => state)
+  const { bestsellers, mainslider } = useSelector(state => state);
   const [modal, setModal] = useState(false);
   const moreAbout = () => {
     setModal(!modal)
   }
-
   const [myName, setMyName] = useState('')
   const [mySurname, setMySurname] = useState('')
   const [comment, setComment] = useState('')
-
   const [nameError, setNameError] = useState(false)
   const [surnameError, setSurnameError] = useState(false)
   const [commentError, setCommentError] = useState(false)
-
   const [formValid, setFormValid] = useState(false)
-
   const handleName = (a) => {
     if (a.target.value.length > 2) {
       setMyName(a.target.value)
@@ -57,8 +53,7 @@ export default function Home() {
     else {
       setNameError(true)
     }
-  }
-
+  };
   const handleSurname = (a) => {
     if (a.target.value.length > 2) {
       setMySurname(a.target.value)
@@ -67,8 +62,7 @@ export default function Home() {
     else {
       setSurnameError(true)
     }
-  }
-
+  };
   const handleComment = (a) => {
     if (a.target.value.length > 2) {
       setComment(a.target.value)
@@ -77,8 +71,7 @@ export default function Home() {
     else {
       setCommentError(true)
     }
-  }
-
+  };
   const checkName = (e) => {
     if (e.target.value.length < 3) {
       setNameError(true)
@@ -86,8 +79,7 @@ export default function Home() {
     else {
       setNameError(false)
     }
-  }
-
+  };
   const checkSurname = (e) => {
     if (e.target.value.length < 3) {
       setSurnameError(true)
@@ -95,8 +87,7 @@ export default function Home() {
     else {
       setSurnameError(false)
     }
-  }
-
+  };
   const checkComment = (e) => {
     if (e.target.value.length < 3) {
       setCommentError(true)
@@ -104,8 +95,7 @@ export default function Home() {
     else {
       setCommentError(false)
     }
-  }
-
+  };
   useEffect(() => {
     if (!nameError && !surnameError && !commentError && myName !== '' && mySurname !== '' && comment !== '') {
       setFormValid(true)
@@ -113,10 +103,9 @@ export default function Home() {
     else {
       setFormValid(false)
     }
-  }, [nameError, surnameError, myName, mySurname, commentError, comment])
+  }, [nameError, surnameError, myName, mySurname, commentError, comment]);
 
-  const [customerComments, setCustomerComments] = useState([])
-
+  const [customerComments, setCustomerComments] = useState([]);
   const newComment = (a) => {
     a.preventDefault()
     const date = Moment().format('DD.MM.YYYY H:mm')
@@ -139,20 +128,15 @@ export default function Home() {
     setMyName('')
     setMySurname('')
     setComment('')
-  }
-
-  const [commentsPage, setCommentsPage] = useState(false)
-
+  };
+  const [commentsPage, setCommentsPage] = useState(false);
   const allComments = () => {
     setCommentsPage(!commentsPage)
-  }
-
+  };
   const removeComment = (id) => {
     let removed = customerComments.filter(e => e.id !== id)
     setCustomerComments(removed)
-  }
-
-
+  };
 
   const [playAnimation, setPlayAnimation] = useState(false);
   useEffect(() => {
@@ -170,22 +154,13 @@ export default function Home() {
 
 
   return (
-    <>
       <div className="wholehome">
         {
           !playAnimation ?
             <div className="loader">
-              <Oval
-                height={100}
-                width={100}
+              <PuffLoader
                 color="#c5101a"
-                wrapperStyle={{}}
-                wrapperClass=""
-                visible={true}
-                ariaLabel='oval-loading'
-                secondaryColor="#e34f54"
-                strokeWidth={2}
-                strokeWidthSecondary={2}
+                size={90}
               />
             </div>
             :
@@ -710,6 +685,5 @@ export default function Home() {
             </>
         }
       </div>
-    </>
   )
 }

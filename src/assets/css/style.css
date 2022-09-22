@@ -100,7 +100,6 @@ input::selection {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
 }
 
 
@@ -108,7 +107,6 @@ input::selection {
 /* <========== H E A D E R ==========> */
 
 .navbar-back {
-  /* border: 1px solid red; */
   width: 100%;
   height: auto;
   display: flex;
@@ -131,14 +129,12 @@ input::selection {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid red; */
 }
 
 .navbar {
   width: 1200px;
   height: 100px;
   border-bottom: 2px solid #c5101a;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -147,7 +143,6 @@ input::selection {
 }
 
 .navbar-back-onscroll {
-  /* border: 1px solid red; */
   width: 100%;
   height: auto;
   display: flex;
@@ -220,12 +215,12 @@ input::selection {
 }
 
 .userside {
-  width: 17%;
+  width: 20%;
   height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* border: 1px solid red; */
+  padding: 10px;
 }
 .userside a,
 .userside span {
@@ -262,6 +257,38 @@ input::selection {
 .userside span:hover {
   border: 1px solid #e7f5ec3c;
 }
+#lang {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e7f5ec00;
+  color: #feedee;
+  border-radius: 50%;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+  font-family: 'Prompt-Thin';
+  font-size: 22px;
+  padding: 6px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#lang:hover {
+  border: 1px solid #e7f5ec3c;
+}
+
+#lang option {
+  font-family: 'Prompt-Thin';
+  color: #feedee;
+  background-color: var(--blood);
+  outline: none;
+  font-size: 17px;
+}
+
+
+
+
+
 
 /* Menu */
 

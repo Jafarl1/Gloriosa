@@ -117,6 +117,11 @@ export default function Header() {
                         <NavLink to='/favorite'> <img src={heart} alt="favorites" style={{ width: '70%' }} /> </NavLink>
                         <NavLink to='/cart'> <img src={cart} alt="cart" /> </NavLink>
                         <NavLink to='/login'> <img src={user} alt="user" style={{ width: '77%' }} /> </NavLink>
+                        <select name="lang" id="lang">
+                            <option value="EN"> EN </option>
+                            <option value="RU"> RU </option>
+                            <option value="AZ"> AZ </option>
+                        </select>
                     </div>
 
                     <div className="burger-768">
@@ -218,6 +223,11 @@ export default function Header() {
                         <NavLink to='/favorite'> <img src={heart} alt="favorites" style={{ width: '70%' }} /> </NavLink>
                         <NavLink to='/cart'> <img src={cart} alt="cart" /> </NavLink>
                         <NavLink to='/login'> <img src={user} alt="user" style={{ width: '77%' }} /> </NavLink>
+                        <select name="lang" id="lang">
+                            <option value="EN"> EN </option>
+                            <option value="RU"> RU </option>
+                            <option value="AZ"> AZ </option>
+                        </select>
                     </div>
                 </div>
 
