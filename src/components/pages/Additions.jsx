@@ -3,45 +3,36 @@ import { useSelector } from 'react-redux'
 import close from '../../assets/images/icons/close.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import azn from "../../assets/images/icons/azn.png"
 
 function Additions() {
 
     AOS.init({
         duration: 800,
         easing: 'ease'
-    })
+    });
 
+    const { sweets } = useSelector(state => state);
+    const { cardspage } = useSelector(state => state);
 
-    const { sweets } = useSelector(state => state)
-    const { cardspage } = useSelector(state => state)
+    const [sweetsPage, setSweetsPage] = useState(false);
+    const [cardsPage, setCardsPage] = useState(false);
 
-    const [sweetsPage, setSweetsPage] = useState(false)
-    const [cardsPage, setCardsPage] = useState(false)
+    useEffect(()=>{
+        if(sweetsPage || cardsPage){
+            document.body.classList.add('modal-open');
+        }
+        else {
+            document.body.classList.remove('modal-open');
+        }
+    },[sweetsPage, cardsPage]);
 
-    // const [sweetbox, setSweetbox] = useState([]);
-    // const [cardbox, setCardbox] = useState([]);
-
-    // useEffect(() => {
-    //     fetch('http://localhost:7000/sweets')
-    //         .then(res => res.json())
-    //         .then(data => setSweetbox(data))
-    // }, [])
-
-    // useEffect(() => {
-    //     fetch('http://localhost:7000/cards')
-    //         .then(res => res.json())
-    //         .then(data => setCardbox(data))
-    // }, [])
-
-
-    const [tocart, setTocart] = useState([])
+    const [tocart, setTocart] = useState([]);
 
     useEffect(() => {
         if (localStorage.getItem('cart')) {
             setTocart(JSON.parse(localStorage.getItem('cart')))
         }
-    }, [])
+    }, []);
 
     const addToCart = (id) => {
         let prod = sweets.find((a) => a.id === id);
@@ -56,7 +47,7 @@ function Additions() {
             setTocart(newProd)
         }
         localStorage.setItem('cart', JSON.stringify(newProd))
-    }
+    };
 
     const addTocart = (id) => {
         let prod = cardspage.find((a) => a.id === id);
@@ -71,10 +62,7 @@ function Additions() {
             setTocart(newProd)
         }
         localStorage.setItem('cart', JSON.stringify(newProd))
-    }
-
-
-
+    };
 
 
     return (

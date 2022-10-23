@@ -1403,7 +1403,6 @@ input[type="checkbox"]:checked + label .bounce .ball {
   height: 100%;
 }
 .additionspage {
-  /* border: 1px solid black; */
   width: 100%;
   height: 400px;
   display: flex;
@@ -1449,6 +1448,10 @@ input[type="checkbox"]:checked + label .bounce .ball {
   background-position: right center;
   background-size: cover;
   transition: 0.7s;
+}
+.modal-open {
+  height: 100vh;
+  overflow-y: hidden;
 }
 .add-text h1,
 .g-topline h1 {
