@@ -270,8 +270,7 @@ input::selection {
   font-family: 'Prompt-Thin';
   font-size: 22px;
   padding: 6px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  appearance: none;
 }
 #lang:hover {
   border: 1px solid #e7f5ec3c;
@@ -310,7 +309,6 @@ input::selection {
   outline: none;
   border-bottom: 1px solid #cc202600;
   cursor: pointer;
-  /* border: 1px solid red; */
   position: relative;
 }
 .pagelink:hover {
@@ -1722,7 +1720,6 @@ input[type="checkbox"]:checked + label .bounce .ball {
   right: 0;
 }
 .signboard {
-  /* border: 1px solid black; */
   width: 200px;
   height: 160px;
   position: relative;

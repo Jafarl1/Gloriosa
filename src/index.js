@@ -10,9 +10,6 @@ import App from './App';
 
 const str = createStore(reducer)
 
-
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
